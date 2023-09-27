@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+	<script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+
+</head>
+<body>
+    <div>
+  <h1 id="myh1">Hello H1</h1>
+  <h2>Hello H2</h2>
+  <h3>Hello H3</h3>   
+  <h2 class="myh2">Hello H2 - 2</h2>
+  <h2>ashish</h2>
+  <h2>ashish</h2>
+  <h2>ashish</h2>
+  <h2>ashish</h2>
+  <h2>ashish</h2>
+  <h3>bahadure</h3>
+  <span></span>
+  <h3>bahadure</h3>
+  <h3>bahadure</h3>
+  <h3>bahadure</h3>
+  <h3>bahadure</h3>
+</div>
+<button id="mybtn">click</button>
+<script>
+    $(document).ready(function(){
+        $("#mybtn").click(function(){
+            // $("#myh1").siblings().css("background-color",'red');
+            // $("#myh1").siblings('h2').css("background-color",'red');
+            // $("#myh1").siblings('myh2').css("background-color",'red');
+            // $("#myh1").next().css("background-color",'red');
+            // $("#myh1").next().next().css("background-color",'red');
+            $("#myh2").nextAll().css("background-color","red");
+            $("#myh1").nextUntil('span').css("background-color","red");
+            // prev,prevAll,prevUNtil
+            
+
+        })
+    })
+</script>
+</body>
+</html>

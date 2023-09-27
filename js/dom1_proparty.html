@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<style>
+		.box{
+			height: 100px;
+			width: 100px;
+			float: left;
+			background-color: red;
+		}
+		.box1{
+			height: 100px;
+			width: 100px;
+			float: left;
+			background-color: green;
+		}
+	</style>
+	<div id="data" class="box"></div>
+	<button onclick="addc()">add class</button>
+	<button onclick="removec()">remove class</button>
+	<button onclick="togglec()">toggle class</button>
+	<script type="text/javascript">
+		function addc(){
+			document.getElementById('data').classList.add('box1');
+		}
+		function removec(){
+			document.getElementById('data').classList.remove('box1');
+		}
+		function togglec(){
+			document.getElementById('data').classList.toggle('box1');
+		}
+	</script>
+	<br><br><br><br><br>
+	<!-- append method -->
+	<div id="intro">
+		<p>hello this is a p tag</p>
+	</div>
+	<script type="text/javascript">
+		var elm=document.getElementById('intro');
+		var h1=document.createElement('h1');
+		elm.appendChild(h1);
+		h1.className="data try";
+		h1.id="data22"
+		var text=document.createTextNode("this is h1 tag");
+		h1.appendChild(text);
+
+
+		 var h2=document.createElement('h2');
+		 elm.appendChild(h2);
+		 h2.className="box11 box22";
+		 h2.id="box33"
+		 var text1=document.createTextNode("this is h2 tag");
+	     h2.appendChild(text1);
+	</script>
+	<!-- new example in append  -->
+	<ul id="list">
+		<li>list 1</li>
+		<li>list 2</li>
+		<li>list 3</li>
+		<li>list 4</li>
+	</ul>
+	<script type="text/javascript">
+		var list1=document.getElementById('list');
+		var item =document.createElement("li")
+		list1.appendChild(item);
+		var text2=document.createTextNode("new list 5");
+		item.appendChild(text2);
+		var item2=document.createElement("li");
+		list1.appendChild(item2);
+		</script>
+</body>
+</html>

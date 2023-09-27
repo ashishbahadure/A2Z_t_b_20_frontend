@@ -1,0 +1,50 @@
+
+.img{
+	height: 300px;
+	width:15.5%;
+	margin-left: 10px;
+	/*background-image: url(my.jpeg);*/
+	background-color: red;
+	float: left;
+	/*background-size: 12%;*/
+}
+.img img{
+	height: 300px;
+	width: 200px;
+}
+@media(max-width: 660px){
+	
+
+	.img{
+		width: 60.5%;
+	}
+	.img img{
+		width: 800px;
+	}
+}
+
+@media(min-width: 661px){
+		.img{
+		width: 45.5%;
+	}
+	.img img{
+		width:600px;
+	}	
+}
+
+@media(min-width: 920px){
+		.img{
+		width: 20.5%;
+	}
+	.img img{
+		width: 300px;
+	}
+}
+@media(min-width: 1200px){
+		.img{
+		width: 15.5%;
+	}
+	.img img{
+		width: 200px;
+	}
+}

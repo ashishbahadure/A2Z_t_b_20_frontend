@@ -1,0 +1,161 @@
+*{margin:0px;}
+
+.bigdiv{
+	height: 600px;
+	width:600px;
+	position: absolute;
+	/*top:-100px;*/
+	left:270px;
+	background-color: red;
+	/*border:70px solid blue;*/
+	border-radius:   50%;
+	position: fixed;
+	animation-name: colorf;
+	animation-duration: 5s;
+	position: absolute;
+	
+}
+@keyframes colorf{
+	0%{background:red;}
+	10%{background:pink;}
+	20%{background:yellow;}
+	30%{background:black;}
+	40%{background:pink;}
+	50%{background:deeppink;}
+	60%{background:purple;}
+	70%{background:violet;}
+}
+
+.second{
+	height: 500px;
+	width:500px;
+	margin-top: 50px;
+	margin-left: 50px;
+	position: absolute;
+	/*top:-100px;*/
+	/*left:270px;*/
+	background-color:blue;
+	/*border:70px solid blue;*/
+	border-radius:   50%;
+		animation-name: colord;
+	animation-duration: 5s;
+	position: absolute;
+	
+}
+@keyframes colord{
+	0%{background:red;}
+	10%{background:pink;}
+	20%{background:yellow;}
+	30%{background:black;}
+
+	40%{background:green;}
+	50%{background:aqua;}
+	60%{background:brown;}
+	70%{background:teal;}
+}
+.third{
+	height: 400px;
+	width:400px;
+	margin-top: 50px;
+	margin-left: 50px;
+	position: absolute;
+	/*top:-100px;*/
+	/*left:270px;*/
+	background-color:pink;
+	/*border:70px solid blue;*/
+	border-radius:   50%;
+	animation-name: colors;
+	animation-duration: 5s;
+	position: absolute;
+	
+}
+@keyframes colors{
+	0%{background:red;}
+	10%{background:deeppink;}
+	20%{background:yellow;}
+	30%{background:black;}
+	40%{background:pink;}
+	50%{background:aqua;}
+	60%{background:purple;}
+	70%{background:aqua;}
+}
+
+.forth{
+	height: 300px;
+	width:300px;
+	margin-top: 50px;
+	margin-left: 50px;
+	position: absolute;
+	/*top:-100px;*/
+	/*left:270px;*/
+	background-color:deeppink;
+	/*border:70px solid blue;*/
+	border-radius:   50%;
+	animation-name: colora;
+	animation-duration: 5s;
+	position: absolute;
+	
+}
+@keyframes colora{
+	0%{background:red;}
+	10%{background:purple;}
+	20%{background:yellow;}
+	30%{background:black;}
+	40%{background:pink;}
+	50%{background:aqua;}
+	60%{background:purple;}
+	70%{background:khaki;}
+}
+.fifth{
+	height: 200px;
+	width:200px;
+	margin-top: 50px;
+	margin-left: 50px;
+	position: absolute;
+	/*top:-100px;*/
+	/*left:270px;*/
+	background-color:purple;
+	/*border:70px solid blue;*/
+	border-radius:   50%;
+	animation-name: colorr;
+	animation-duration: 5s;
+	position: absolute;
+	
+	
+}
+@keyframes colorr{
+	0%{background:red;}
+	10%{background:black;}
+	20%{background:yellow;}
+	30%{background:plum;}
+	40%{background:pink;}
+	50%{background:aqua;}
+	60%{background:purple;}
+	70%{background:deeppink;}
+}
+.sixth{
+	height: 100px;
+	width:100px;
+	margin-top: 50px;
+	margin-left: 50px;
+	/*position: absolute;*/
+	/*top:-100px;*/
+	/*left:270px;*/
+	background-color:aqua;
+	/*border:70px solid blue;*/
+	border-radius:   50%;
+	animation-name: colore;
+	animation-duration: 5s;
+	position: absolute;
+	
+}
+@keyframes colore{
+	0%{background:red;}
+	10%{background:green;}
+	20%{background:yellow;}
+	30%{background:black;}
+	40%{background:pink;}
+	50%{background:white;}
+	60%{background:orange;}
+	70%{background:deeppink;}
+}

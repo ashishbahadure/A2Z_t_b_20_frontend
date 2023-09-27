@@ -1,0 +1,62 @@
+.a{
+	height: 80px;
+	width: 10%;
+	background-color: yellow;
+	float: left;
+	border: 7px solid red;
+	box-sizing: border-box;
+
+}
+
+.b{
+	height: 80px;
+	width: 10%;
+	background-color: yellow;
+	float: left;
+
+	border: 7px groove red;
+	box-sizing: border-box;
+	border-radius: 10% 50px 10% 10%;
+}
+
+.c{
+	height: 80px;
+	width: 10%;
+	background-color: yellow;
+	float: left;
+	border: 7px groove red;
+	box-sizing: border-box;
+	border-radius: 10% 10% 50px  10%;
+}
+
+
+.d{
+	height: 80px;
+	width: 10%;
+	background-color: yellow;
+	float: left;
+	border: 7px groove red;
+	box-sizing: border-box;
+	border-radius: 10% 10% 10% 50px;
+}
+
+.e{
+	height: 80px;
+	width: 10%;
+	background-color: yellow;
+	float: left;
+	border: 7px groove red;
+	box-sizing: border-box;
+	border-radius:50px 10% 10% 10% ;
+}
+
+
+.x{
+	height: 150px;
+	width: 150px;
+	background-color: white;
+	float: left;
+	border-radius: 50px;
+	border: 1px solid red;
+	padding: 20px;
+}

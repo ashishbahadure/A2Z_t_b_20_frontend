@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+   <img id="img"src="https://media.istockphoto.com/id/512389477/photo/love-the-nature.jpg?b=1&s=170667a&w=0&k=20&c=IS_g2qn4hCckV14YnCWMpApvHJ2SjdS0-zMGtDm63k4=">
+   <button onclick="startfun()">start</button>
+   <button onclick="stopfun()">stop</button>
+   <script type="text/javascript">
+   	var id="";
+   	function startfun() {
+   		id=setTimeout(data,3000);
+   	}
+   	function stopfun(){
+   		clearTimeout(id);
+   	}
+   	function data(){
+   		document.getElementById('img').style="height:300px;width:300px;border-radius:50%;"
+   	}
+   </script>
+   <style type="text/css">
+      #text
+   </style>
+</body>
+</html>

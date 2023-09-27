@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+	var per={"name":"ashish","address":"telangashi","age":21};
+	document.write(per.name);
+	document.write(per.address);
+	document.write(per.age);
+
+	// constructor method
+	var info=new Object();
+	info.name="ashish";
+	info.mobile=9112334;
+	document.write(info.name);
+	document.write(info.mobile);
+	// object in method
+	var a={
+		"fname":"ashish",
+		"lname":"bahadure",
+		"name":function(){
+			return this.fname+" "+this.lname;
+		}
+	}
+	document.write(a.name())
+</script>
+</body>
+</html>

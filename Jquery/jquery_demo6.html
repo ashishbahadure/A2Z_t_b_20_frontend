@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+
+</head>
+<body>
+	<textarea id="mytextarea"></textarea>
+	<div id="mydiv"></div>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+		$("#mytextarea").keyup(function(event){
+			var val=$("#mytextarea").val();
+			var val2=val.split("").join("<br>");
+			$("#mydiv").html(val2);
+		});
+		});
+	</script>
+</body>
+</html>

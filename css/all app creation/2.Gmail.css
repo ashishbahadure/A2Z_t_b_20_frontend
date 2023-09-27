@@ -1,0 +1,165 @@
+*{
+	margin: 0px;
+	padding:0px;
+}
+body{
+	height: 650px;
+	width: 100%;
+	background-color: black;
+	/*background-position: fixed;*/
+	background-size: 100% 100%;
+}
+
+
+.leftside{
+	height: 650px;
+	width: 100%;
+	background-color:white;
+	position: fixed;
+	left: 0px;
+	float: right;
+}
+.firstdiv{
+	height: 650px;
+	width: 20%;
+	/*background-color:#95b1e2;*/
+	/*position: fixed;*/
+	/*left: 0px;*/
+	float: left;	
+}
+.second{
+	height: 650px;
+	width: 80%;
+	/*background-color:green;*/
+	/*position: fixed;*/
+	float: left;
+}
+
+
+.firstdiv1{
+	height: 70px;
+	width: 100%;
+	background-color: white;
+}
+.box input {
+	height: 30px;
+	width: 20px;
+}
+.icon{
+	font-size: 50px;
+	float: left;
+	margin-left: 40px;
+	margin-top: 10px;
+}
+.firstdiv2{
+	height: 50px;
+	width: 80%;
+	background-color:#5a85cf;
+	border-radius: 20px;
+	text-align: center;
+	font-size: 30px;
+	padding-top: 20px;
+	}
+
+.alldiv{
+	height: 40px;
+	width: 80%;
+	background-color:#d4ddeb;
+	margin-top:14px;
+	border-radius: 20px;
+	margin-left: 20px;
+	text-align: center;
+	padding-top: 10px;
+	font-size: 20px;
+
+}
+.alldiv:hover{
+	background-color: red;
+}
+
+.alldiv span{
+	font-size: 20px;
+	margin-left: -60px;
+	margin-right: 50px;
+	text-align: bottom;
+}
+.inputdiv{
+	width: 100%;
+	height: 30px;
+	background-color: white;
+}
+.
+.inputdiv input{
+	height:30px ;
+	width: 40%;
+}
+.icon2{
+	height: 40px;
+	width: 100%;
+	font-size: 24px;
+}
+.icon2 i{
+	margin-left: 20px;
+	float: left;
+	margin-top: 5px;
+}
+.icon2 p{
+	margin-left: 800px;
+	letter-spacing: 2px;
+	float: left;
+	margin-top: -17px;
+	border-bottom: 1px solid red;
+}
+.icon2:hover{
+	background-color:#5a85cf;
+}
+.icon2 span i{
+	margin-top: -17px;
+
+}
+.ic{
+	height: 40px;
+	width: 100%;
+	border-top: 1px solid red;
+	/*background-color: blue;*/
+}
+.box{
+	height: 40px;
+	width: 100%;
+	border:1px solid black;
+
+}
+.box p{
+	float: right;
+	margin-right: 10px;
+}
+.box:hover{
+	background-color: grey;
+}
+.box i{
+	color: grey;
+	margin-left: 10px;
+}
+.box span{
+	margin-left: 20px;
+
+}
+.shre{
+	height:40px;
+	width: 20%;
+	margin-left: 25px;
+	/*background-color: red;*/
+	float: left;
+	font-size: 25px;
+
+	/*word-spacing: 10px;*/
+}
+.shre:hover{
+	background-color: red;
+}
+.shre i{
+	margin-right: 10px;
+	/*color: white;*/
+	font-size: 25px;
+	margin-top: 2px;
+}

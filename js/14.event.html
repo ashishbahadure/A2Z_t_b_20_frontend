@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		.box{
+			height: 400px;
+			width: 100%;
+			background-color: red;
+
+		}
+	</style>
+</head>
+<body>
+	<!-- mouse event
+	1.click
+	2.dblclick
+	3.contextmenu
+	keyboard event 
+	form event
+	window event -->
+	<div class="box"id="data"onclick="fun1()"ondblclick="fun2()"oncontextmenu="contextmenu()"onmouseover="mouseover()"onmouseout="mouseout()"onmouseenter="mouseenter()"onmouseleave="mouseleave()"></div>
+	<script type="text/javascript">
+		// mouse event
+		// click
+		function fun1() {
+			document.getElementById('data').style.background="green";
+		}
+		// 2.doubleclick
+		function fun2(){
+			document.getElementById("data").style.background="yellow";
+		}
+		//3contextmenu
+		function contextmenu(){
+			document.getElementById("data").style.background="black";
+		}
+		//4mouseover
+		function mouseover(){
+			document.getElementById('data').style.background="pink";
+		}
+		//4mouseout
+		function mouseout(){
+			document.getElementById("data").style.background="purple";
+		}
+		//5 mouseenter
+		function mouseenter(){
+			document.getElementById('data').style.background="orange";
+		}
+		//6 mouseleave
+		function mouseleave(){
+			document.getElementById('data').style.background="grey";
+		}
+		
+	</script>
+</body>
+</html>

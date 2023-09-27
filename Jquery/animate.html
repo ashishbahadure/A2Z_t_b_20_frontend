@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+	
+</head>
+<body>
+	<div style="height: 100px;width: 100px;background-color: red;position: absolute;top:50px;"id="mydiv"></div>
+	<button id="movebtn">move</button>
+	<script type="text/javascript">
+		$(document).ready(function(){
+		$("#movebtn").click(function(){
+			$("#mydiv").animate({left:"50%"})
+			$("#mydiv").animate({left:"20%,"})
+			$("#mydiv").animate({top:"70%"})
+			$("#mydiv").animate({left:"50%"})	
+			$("#mydiv").fadeOut()
+		});
+		
+		});
+	</script>
+</body>
+</html>
+<!-- mario -->

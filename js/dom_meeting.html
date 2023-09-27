@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h4>hello</h4>
+	<h4>friend</h4>
+	<h1 id="ashish">ashish bahadure</h1>
+	<h1 id="college">new arts college nagar</h1>
+	<button onclick="myid()">chenage</button>
+	<script type="text/javascript">
+		// document.getElementById('ashish').style.background="yellow";
+		// document.getElementById('ashish').innerHTML="ashish bahadure a2z student";
+		// console.log(ashish);
+		function myid() {
+			var d1=document.getElementById('ashish').innerText;
+			console.log(d1);
+			var d2=document.getElementById('college').innerText;
+			document.getElementById('ashish').innerText=d2;
+			document.getElementById('college').innerText=d1;
+			document.getElementById('ashish').style.background="green";
+			document.getElementById('ashish').style.border="10px solid blue";
+			document.getElementById('college').style.background="pink";
+			document.getElementById('college').style.border="10px solid blue";
+		}
+
+	</script>
+</body>
+</html>

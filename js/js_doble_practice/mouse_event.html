@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		#mydiv{
+			height: 200px;
+			width: 100%;
+			background-color: blue;
+		}
+	</style>
+</head>
+<body>
+	<div id="mydiv"onclick="fun1()"ondblclick="fun2()"oncontextmenu="fun3()"onmouseover="fun4()"onmouseout="fun5()"></div>
+	<script type="text/javascript">
+		function fun1(){
+			document.getElementById('mydiv').style.background="orange";
+		}
+		function fun2(){
+			document.getElementById("mydiv").style.background="red";
+		}
+		function fun3(){
+			document.getElementById('mydiv').style.background="black";
+		}
+		function fun4(){
+			document.getElementById('mydiv').style.background="skyblue";
+		}
+		function fun5(){
+			document.getElementById('mydiv').style.background="deeppink";
+		}
+	</script><br><br>
+	<input type="text"id="num1"onkeypress="" name=""placeholder="num1">
+	<input type="text"id="num2" name=""placeholder="num2"><br><br>
+	<!-- <input type="email"id="num3" name=""placeholder="email"><br><br> -->
+	<!-- <input type="date"id="num4" name=""placeholder=""><br><br> -->
+	<button onclick="add(num1.value),add1(num2.value)">submit</button><br><br>
+
+	<input type="" name=""placeholder="total"id="total" readonly>
+	<input type="" name=""placeholder="total"id="total1" readonly>
+	<!-- <input type="" name=""placeholder="total"id="total2" readonly> -->
+	<!-- <input type="" name=""placeholder="total"id="total3" readonly> -->
+	<script type="text/javascript">
+		function add(a){
+				// var c=Number(a)+Number(b);
+				// var e=a+b+c+d;
+				var a;
+				// var b;
+				// c=b;
+				console.log(a);
+				document.getElementById('total').value=a;
+				document.getElementById('total').value=a;
+				document.getElementById('total').value=a;
+				document.getElementById('total').value=a;
+				document.getElementById('total').value=a;
+
+		}
+		function add1(b){
+				// var c=Number(a)+Number(b);
+				// var e=a+b+c+d;
+				var b;
+				// c=b;
+				document.getElementById('total1').value=b;
+
+		}
+		// // function add(c){
+		// 		// var c=Number(a)+Number(b);
+		// 		// var e=a+b+c+d;
+		// 		var c;
+		// 		// c=b;
+		// 		document.getElementById('total2').value=c;
+		// }
+		// function add(d){
+		// 		// var c=Number(a)+Number(b);
+		// 		// var e=a+b+c+d;
+		// 		var d;
+		// 		// c=b;
+		// 		document.getElementById('total3').value=d;
+		// }
+	</script>
+
+</body>
+</html>
+
+
+

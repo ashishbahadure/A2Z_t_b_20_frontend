@@ -1,0 +1,60 @@
+*{margin: 0px;}
+body{
+	background-image: url(ashish2.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.background{
+	height: 100px;
+	width: 100%;
+	/*background-image: url(ashish1.jpg);*/
+	background-color: white;
+
+}
+.background1{
+	height: 200px;
+	width: 70%;
+	background-color: white;
+	margin-top: 140px;
+	margin-left: 180px;
+}
+ 
+  .circle{
+  	height: 50px;
+  	width: 50px;
+  	background-color: tomato;
+  	border-radius: 50px;
+  	position: absolute;
+  	top: 340px;
+  	left: 190px;
+  	z-index: 123;
+
+  }
+  .line{
+  	height: 10px;
+  	width: 65%;
+  	background-color: blue;
+  	position: absolute;
+  	top: 360px;
+  	left: 190px;
+  }
+  .text{
+  	height: 100px;
+  	width: 100px;
+  
+  	position: absolute;
+  	top: 240px;
+  	left:  180px;
+  	font-size: 25px;
+
+  }
+
+
+  .leftside h5:hover{
+  	background-color: blue;
+  }
+
+.leftside h6:hover{
+  	background-color: blue;
+  }
+

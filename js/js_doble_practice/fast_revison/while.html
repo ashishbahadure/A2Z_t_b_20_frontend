@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+	// var i=1;
+	// while(i<=1000){
+	// 	document.write("<br>"+i);
+	// 	i++;
+	// }
+		document.write("<br>");
+		document.write("<br>");
+
+		// var i=500;
+		// while(i>=1){
+		// 	document.write("<br>"+i);
+		// 	i--;
+		// }
+		document.write("<br>");
+		document.write("<br>");
+		document.write("<br>");
+		var a=9;
+		var i=1;
+		while(i<=10){
+			var c=a*i;
+			document.write("<br>"+c);
+			i++;
+		}
+		document.write("<br>");
+		document.write("<br>");
+		// only even number print
+
+		var i=0;
+		var sum=0;
+		while(i<=10){
+			if (i%2==0) {
+			document.write("<br>"+i);
+			sum+=i;
+
+			}
+			i++;
+
+		}
+		document.write("<br>sum= "+sum);
+		document.write("<br>");
+		document.write("<br>");
+		// only odd number print
+		var i=1;
+		var sum=0
+		while(i<=10){
+			if (i%2!=0) {
+				document.write("<br>"+i);
+				sum+=i;
+
+			}
+			i++;
+		}
+			document.write("<br>sum= "+sum);
+
+			// do while loop
+			// ex-100-1 number print
+			var a=20;
+			do{
+				document.write("<br>"+a);
+				a--
+			}
+			while(a>=1);
+
+				document.write("<br>");
+				document.write("<br>");
+				document.write("<br>");
+			
+				// ex-6 table print
+				var a=1;
+				do{
+					var c=6*a;
+					document.write("<br>"+c);
+					a++;
+				}while(a<=10);
+
+				//ex-1-50 even print +addition 
+				var a=1;
+				var sum=0;
+				do{
+					if (a%2==0) {
+						document.write("<br>"+a);
+						sum+=a;
+					}
+					a++;
+				}while(a<=50);
+				document.write("<br>sum= "+sum);
+
+				// nested do while loop
+				var a=1;
+				do{
+					document.write("<h1>"+a+"</h1>");
+					var b=1;
+					do{
+						document.write("<br>"+b);
+						b++;
+					}while(b<=10);
+					a++;
+				}while(a<=10);
+</script>
+</body>
+</html>

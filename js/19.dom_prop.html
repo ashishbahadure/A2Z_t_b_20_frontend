@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+		<h1 id="data"> <mark> welcome js</mark></h1>
+		<h2 id="data2"></h2>
+
+
+		<h1 id="data"> <mark> welcome js</mark></h1>
+		<h2 id="data2"></h2>
+		<script type="text/javascript">
+			var a=document.getElementById('data').innerText;
+			console.log(a);
+			document.getElementById('data2').innerText="<mark>welcome js</mark>";
+			//innerHTML
+			// var b=document.getElementById('data22').innerHTML;
+			// console.log(b);
+			// document.getElementById('data22').innerHTML="<mark>welcome js</mark>"
+		</script>
+		<br><br><br>
+		<style>
+			.box{
+				height: 100px;
+				width: 100px;
+				/*float: left;*/
+				background-color: blue;
+			}
+			.box1{
+				height: 100px;
+				width: 100px;
+				/*float: left;*/
+				background-color: red;
+			}
+
+		</style>
+		<br><br><br>
+		<div id="box"class="box demo"></div>
+		<script type="text/javascript">
+			// getAttribute
+			var a=document.getElementById('box').getAttribute('id');
+			console.log(a);
+			// setAttribute
+			document.getElementById('box').setAttribute('class',"box2 box1");
+		</script>
+		<form>
+			<input type="text" name="name" id="name" value="a2z"><br><br>
+			<input type="text" name="email" id="email" value="ashish@gmail.com"><br><br>
+		</form>
+		<script type="text/javascript">
+			var a=document.getElementById('name').value;
+			var b=document.getElementById('email').value;
+			console.log(a);
+			console.log(b);
+			document.getElementById('name').value="a2z it hub";
+			document.getElementById('email').value="ashishbahadure@gamial.com";
+		</script>
+		<div class="box"></div>
+		<script type="text/javascript">
+			document.getElementsByClassName('box')[0].style.width="300px";
+			document.getElementsByClassName('box')[0].style.height="300px";
+			document.getElementsByClassName('box')[0].style.background="red";
+			document.getElementsByClassName('box')[0].style="width:100px;height:100px;background-color:yellow;"
+
+		</script>
+		<input type="text" name=""value="a2z" id="inp" disabled="">
+		<script type="text/javascript">
+			var a=document.getElementById('inp').hasAttribute('disabled');
+			console.log(a);
+			if (a) {
+				alert("please remove disabled attribute");
+			}
+
+		</script>
+		<br><br><br><br><br><br><br>
+		<input type="text" name="name" class="inp" value="a2z"disabled> 
+		<br><br>
+		<input type="text" name="email" class="inp" value="a2z@tech.com"disabled><br><br>
+		<input type="text" name="phone" class="inp" value="023999898"disabled><br><br>
+		<button onclick="fun()">edit</button><br><br><br>
+		<script type="text/javascript">
+			function fun() {
+				document.getElementsByClassName('inp')[0].removeAttribute('disabled');
+				document.getElementsByClassName('inp')[1].removeAttribute('disabled');
+				document.getElementsByClassName('inp')[2].removeAttribute('disabled');
+			}
+		</script>
+		<style type="text/css">
+
+			.box{
+				height: 100px;
+				width: 100px;
+				background-color:green;
+				float: left;
+			}
+			.box2{
+				height: 100px;
+				width: 100px;
+				background-color:yellow;
+				float: left;
+			}
+			
+	
+
+
+
+
+
+
+
+
+
+
+
+
+	<br><br><br><br><br><br>
+	
+</body>
+</html>

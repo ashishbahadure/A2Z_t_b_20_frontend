@@ -1,0 +1,100 @@
+.one{
+	height: 680px;
+	width: 100%;
+	background-image:url(https://freefrontend.com/assets/img/css-background-patterns/windows-95-background-in-css.png);
+	border: 5px groove black;
+	box-sizing: border-box;
+}
+.two{
+	height: 680px;
+	width: 50%;
+	background-color: transparent;
+	float: left;
+}
+.three{
+	height: 680px;
+	width: 50%;
+	background-color: transparent;
+	float: left;
+}
+.four{
+	height:430px ;
+	width: 380px;
+	background:hsla(0, 0%, 50%,0.5);
+	border-left:3px solid red;
+	border-right:3px solid red ;
+	border-radius: 10px;
+	margin-left: 100px;
+	margin-top: 80px;
+}
+.five{
+	height: 35px;
+	width: 90%;
+	background:hsla(0, 0%,0%,0.6);
+	border-radius: 20px;
+	border-bottom:2px solid red ;
+	text-align: center;
+	color: white;
+
+}
+.eight{
+	height: 35px;
+	width: 90%;
+	background:hsla(0, 0%,0%,0.6);
+	border-radius: 20px;
+	border-bottom:2px solid red ;
+	text-align: center;
+	color: red;
+
+}
+.six{
+	height: 70px;
+	width: 90%;
+	background:hsla(0, 0%,0%,0.6);
+	border-radius: 20px;
+	border-bottom:2px solid red ;
+	text-align: center;
+	color: white;
+
+}
+.seven{
+	height: 40px;
+	width: 30%;
+	background:red;
+	border-radius: 10px;
+	border-bottom:1px solid black ;
+	text-align: center;
+	color: white;
+	margin-top: 20px;
+	
+}
+.K{
+	height: 40px;
+	width: 120px;
+	background-color: red;
+	border: 1px solid black;
+	margin-right:130px;
+	margin-top: 30px;
+	border-radius:10px;
+	color: white;
+	float: right;
+	}
+	.K:hover{
+		color:hsla(0, 0%,0%,0.6);
+	}
+	
+	
+	.P{
+		height: 60px;
+		width: 150px;
+		background:hsla(0, 0%,0%,0.8);
+		border-radius: 10px;
+		border: 2px solid red;
+		float: left;
+
+	}
+	.M{
+		text-align: center;
+		color: white;
+
+	}

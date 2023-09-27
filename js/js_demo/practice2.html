@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" placeholder="enter your name" id="inp1">
+    <input type="email" placeholder="enter your number" id="inp2">
+    <input type="date"id="inp3">
+    
+</body>
+</html>
+
+<input type="text" placeholder="Name" id="username" name="">
+ 	<input type="text" placeholder="Name" id="usermobile" name="">
+ 	<input type="text" placeholder="Name" id="useremail" name="">
+ 	<button onclick="addRow()">add</button>
+ 	<br><br>
+ 	<table id="tbl1" width="100%" border="1">
+ 		<tr>
+ 			<th>action</th>
+ 			<th>username</th>
+ 			<th>usermobile</th>
+ 			<th>useremail</th>
+ 		</tr>
+ 	</table>
+ 	<script type="text/javascript">
+ 		function addRow(){
+ 			var name=document.getElementById("username").value;
+ 			var mobile=document.getElementById("usermobile").value;
+ 			var email=document.getElementById("useremail").value;
+ 			var out=`<tr>
+ 					<td>
+ 					<button onclick="removeRow(this)">Del</button>
+ 					</td>
+ 					<td>`+name+`</td>
+ 					 <td>`+mobile+`</td>
+ 					<td>`+email+`</td>
+ 					</tr>`;
+ 					var t1=document.getElementById("tbl1");
+ 					t1.innerHTML=t1.innerHTML+out;
+
+ 			
+ 		}
+ 		function removeRow(elmt)
+ 		{
+ 			elmt.closest('tr').remove();
+ 		}
+ 	</script>
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<input type="text" placeholder="name"id="name">
+	<button onclick="add()">sumbit</button>
+	<table border="1" id="tbl">
+		<tr>
+			<td>username</td>
+			<td>username</td>
+		</tr>
+	</table>
+	<script>
+		function add(){
+			var ad=document.getElementById('name').value;
+			var out=`<tr>
+					<td>`+ad+`</td>
+				</tr>`
+				var t1=document.getElementById('tbl');
+				t1.innerHTML=t1.innerHTML+out;
+				
+		}
+	</script>
+</body>
+</html> -->
+
+

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+	<script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+</head>
+<body>
+    <h1 id="data1"><i>welcome HTML</i></h1>
+    <h1 id="data2"><mark>welcome js</mark></h1>
+    <h1 id="data3"><i>welcome HTML</i></h1>
+    <h1 id="data4"><mark>welcome js</mark></h1>
+    <script>
+        $(document).ready(function(){
+            // get
+            var da1=$('#data1').html();
+            var da2=$('#data2').html();
+            console.log(da1);
+            console.log(da2);
+            // set
+            $('#data1').html(da2);
+            $('#data2').html(da1);
+        })
+        // text()
+        var da3=$('#data3').text();
+        var da4=$('#data4').text();
+        // set
+        $('#data3').text(da3);
+        $('#data4').text(da4);
+    </script>
+    <input type="text"value="ashish" name="" id="inp">
+    <script>
+        $(document).ready(function(){
+            var a=$('#inp').val();
+            console.log(a);
+            // set 
+            $('#inp').val('ashish bahadure');
+        })
+    </script>
+    <h1 id="da" class="demo data text html">welcome</h1>
+    <script>
+        $(document).ready(function(){
+            var ab=$('#da').attr('class');
+            console.log(ab);
+            // set
+            $("#da").attr('class','da10');
+        })
+    </script>
+</body>
+</html>

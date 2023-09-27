@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<!-- inline way -->
+	<p onclick="alert('welcome')">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<h1 id="data">ashish bahadure </h1>
+	<script type="text/javascript">
+		document.getElementById('data').style.color="red";
+	</script>
+	<h2 id="data1">welcome external</h2>
+	<script type="text/javascript"src="ext.js"></script>
+
+	<!-- output posiblity -->
+	<h4 id="ashish"></h4>
+	<script type="text/javascript">
+		document.write("welcome a2z family");
+		alert("welcome a2z family");
+		document.getElementById('ashish').innerHTML=("welcome a2z family");
+		console.log("welcome a2z family");
+		// varible
+	// this is public data
+		var a=12;
+		var b=13;
+		var c=14;
+		var d=16;
+		var  e=15;
+		var g=a+b+c+d+e;
+		document.write(g);
+		// this is local data
+		let as=12;
+		let bs=13;
+		let cs=14;
+		let ds=122;
+		let es=as+bs+cs+ds;
+		document.write(es);
+		// this is unic data
+		const ashsih=123;
+		const bahadure=231;
+		const  ram=1234;
+		const  ramm=1234;
+		const  ramb=1234;
+		const  sham=ashsih+bahadure+ram+ramm+ramb;
+		document.write(sham);
+		// datatype
+		// this is string data type
+		var a="ashsih";
+		document.write(a);
+		document.write("<br>");
+		document.write(typeof a);
+		document.write("<br>");
+		document.write("<br>");
+
+
+		// this is number datatype
+		var a=123455;
+		document.write(a);
+		document.write("<br>");
+		document.write(typeof a);
+		document.write("<br>");
+		document.write("<br>");
+        document.write("<br>");
+		document.write("<br>");
+			// this is boolean data taype
+			var a=true;
+			document.write(a);
+		document.write("<br>");
+		document.write(typeof a);
+document.write("<br>");
+		document.write("<br>");
+        document.write("<br>");
+		document.write("<br>");
+		
+		// this is null data type
+		// // var b=;
+
+		// operater 
+		// assignment operater
+		var a=334;
+		var b=434;
+		var c=534;
+		var d=a+b;
+		document.write(d);
+		document.write("<br>");
+		var d=a-b;
+		document.write(d);
+		document.write("<br>");
+		var d=a*b;
+		document.write(d);
+		document.write("<br>");
+		var d=a/b;
+		document.write(d);
+		document.write("<br>");
+		var d=a%b;
+		document.write(d);
+		document.write("<br>");
+		// assignment operater
+		document.write("<br>");
+		var d=a+=b;
+		document.write(d);
+		document.write("<br>");
+		var d=a-=b;
+		document.write(d);
+		document.write("<br>");
+		var d=a*=b;
+		document.write(d);
+		document.write("<br>");
+		var d=a/=b;
+		document.write(d);
+		document.write("<br>");
+		var d=a%=b;
+		document.write(d);
+		// inc and dec op
+			// 999
+			var a=999;
+			document.write(++a);
+		document.write("<br>");
+			document.write(a--);
+		document.write("<br>");
+			document.write(--a);
+		document.write("<br>");
+			document.write(a++);
+		document.write("<br>");
+
+			// comparison op
+			var  ab="ashish"=="bahadure";
+			document.write(ab);
+		document.write("<br>");
+			var ab="ashish"===("ashish");
+			document.write(ab);
+		document.write("<br>");
+			var ab=12>10;
+			document.write(ab);
+		document.write("<br>");
+			var ab=12<10;
+			document.write(ab);
+			var ab=12<=10;
+			document.write(ab);
+			var ab=21>=32;
+			document.write(ab);
+			var ashi=1223!=32144;
+			document.write(ashi);
+		document.write("<br>");
+		document.write("<br>");
+		document.write("<br>");
+
+			// logical operater
+			var ab=7;
+			if (ab>=7 && ab<=12) {
+				document.write("good morning");
+			}
+			// else if (ab>=12 || ab<=12) {
+			// 	document.write("plz have dennear");
+			// }
+			// else if(ab>{
+
+			// }
+
+		document.write("<br>");
+		document.write("<br>");
+			// concatinationop
+			var a="ram";
+			var b="sham";
+			var c="ghansham";
+			var d="narayan";
+			var e="ramraje";
+			var f="rambhau";
+			var g="balasaheb";
+			var h="subhashrav";
+			var j="sarpanch";
+			var k=a+"<br>"+ b+"<br>" + c+"<br>" + d+"<br>" + e+"<br>" + f+"<br>" + g+"<br>" + h+"<br>" + j;
+			document.write("<br>"+k);
+			// ternaryop
+			// var age=12;
+			// if (age=<18) {
+
+			// }
+
+		document.write("<br>");
+// control statement if
+		// var ab=12;
+		// if (ab<=35) {
+		// 	document.write("fail");
+
+		// }
+		var hindi=12;
+		var eng=45;
+		var math=65;
+		var marthi=55;
+		var phy=55;
+		if (hindi>=35 && eng>=35 && math>=35 && marthi>=35 && phy>=55 ) {
+			document.write("this candidate is pass");
+		}
+		if (hindi<=35 || eng<=35 || math<=35 || marthi<=35 || phy<=55) {
+			document.write("fail")
+		}
+
+		document.write("<br>");
+		document.write("<br>");
+
+		// if else
+		var hindi=50;
+		var eng=50;
+		var math=50;
+		var marthi=50;
+		var phy=50;
+		if (hindi>=35 && eng>=35 && math>=35 && marthi>=35 && phy>=55 ) {
+		total=hindi+eng+math+marthi+phy/500;
+
+			document.write("this candidate is pass");
+			document.write("total ="+total+"%")
+		}
+		else{
+		total=hindi+eng+math+marthi+phy/500;
+			document.write("fail");
+		document.write("<br>");
+			document.write("total ="+total+"%")
+
+		}
+
+		document.write("<br>");
+
+		// if else if
+
+			var percentage=150;
+			if (percentage<=35) {
+				document.write("fail")
+			}
+			else if (percentage<=55) {
+				document.write("good");
+			}
+			else if (percentage>=70) {
+				document.write("exlent");
+			}
+		document.write("<br>");
+		document.write("<br>");
+
+			// switch case
+			var day="7";
+
+			switch(day){
+				case '1':
+				document.write("monday");
+				break;
+				case '2':
+				document.write("tuesday");
+				break;
+				case '3':
+				document.write("wednesday");
+				break;
+				case '4':
+				document.write("thursday");
+				break;
+				case '5':
+				document.write("fridya");
+				break;
+				case '6':
+				document.write("saturday");
+				break;
+				case '7':
+				document.write("sunday");
+				break;
+			}
+
+
+
+
+
+
+
+
+
+		
+	</script>
+</body>
+</html>

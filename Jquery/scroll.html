@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #mydiv
+        {
+            height: 300px;
+            width: 100%;
+            overflow: scroll;
+        }
+    </style>
+</head>
+<body>
+    <div id="mydiv">
+        <h3>hello</h3>
+        <h2>abcd</h2>
+        <p id="myp">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt doloremque laborum quia qui praesentium debitis! Error, quidem quaerat! Vitae et accusantium nam illum corporis autem, placeat dolores unde ex qui!laborum Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam quibusdam dolorem tempore, ex commodi repellendus. Natus impedit debitis dolor minima quos provident unde harum aut ad? Necessitatibus in veritatis porro? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci corrupti minus, quam officiis ratione veritatis voluptatibus cumque quasi, beatae libero facilis perferendis delectus mollitia atque tenetur dolore Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem voluptatum nostrum nam voluptatibus non officia temporibus distinctio voluptas ullam? Facere, nobis. Autem incidunt nemo perspiciatis repudiandae vel ad maxime officiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, quia architecto. Tempore beatae nobis cupiditate veniam autem mollitia, illo eveniet omnis eaque perferendis, fugit dolorem reprehenderit quis dignissimos magni sapiente. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni facere odit eligendi expedita ratione inventore quia? Omnis dolor, laboriosam expedita quisquam impedit magnam totam, iste iusto error culpa delectus velit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim aperiam modi blanditiis cumque dolorum quis ut. Quibusdam, fugiat earum. Voluptate deserunt dolore enim eligendi deleniti nulla expedita architecto earum assumenda. Lorem ipsum, dolor sit amet consectetur adipisicing elit. In consequatur voluptatibus hic nostrum ab harum inventore quod minima omnis voluptate eveniet nisi obcaecati sapiente tempora, atque quo, voluptates fugiat eum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, omnis beatae tempora modi dolor incidunt rem, placeat consectetur optio exercitationem quae illum cupiditate id porro perferendis ab dolorum deserunt nulla. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut, numquam eligendi dolore blanditiis vel quaerat ipsam explicabo! Debitis maiores doloribus earum mollitia, tempora aliquid labore ex rem cum magni nostrum?  sint, vero repudiandae!
+        </p>
+    </div>
+    <script>
+        var fontsize=15;
+        $(document).ready(function(){
+            $("#mydiv").scroll(function(event){
+                $("#myp").css('font-size',fontsize+'px');
+                fontsize++
+            })
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+
+
+.bg{
+	height: 650px;
+	width: 100%;
+	/*background-image: url();*/
+}
+
+.menubar{
+	height: 100px;
+	width: 100%;
+	/*background-color: red;*/
+}
+.menubar img{
+
+	height: 70px;
+	width: 70px;
+	border-radius: 100px;
+	background-color: black;
+	float:right;
+	/*margin-left: 40px;*/
+}
+
+.icon{
+	font-size: 40px;
+	float: right;
+	margin-right: 20px;
+	margin-top: 22px;
+}
+.menubar span{
+	float: right;
+	margin-right: 25px;
+	font-size: 25px;
+	font-weight: bold;
+	margin-top: 23px;
+}
+.menubar h5{
+	float: right;
+	margin-right: 35px;
+	font-size: 25px;
+	font-weight: bold;
+	margin-top: 23px;
+}
+.text{
+	font-size: 150px;
+	margin-left: 380px;
+
+}
+input{
+	height: 55px;
+	width: 540px;
+	float: right;
+	border:none;
+	font-size: 20px;
+	margin-right: 30px;
+	background-color: none;
+	background-color: white;
+	/*border-radius: 40px;*/
+}
+.bel{
+	font-size: 40px;
+	color: black;
+	margin-left: 10px;
+	margin-top: 10px;
+
+}
+.bell3{
+	float: right;
+	margin-right: 20px;
+	font-size: 40px;
+	color: blue;
+	margin-top: 10px;
+	z-index: 7893;	
+}
+.app{
+	height: 100px;
+	width: 100px;
+	border-radius: 100px;
+	background-color: black;
+	float: left;
+	margin-left: 40px;
+}
+.app img{
+	height: 100px;
+	width: 100px;
+
+}
+

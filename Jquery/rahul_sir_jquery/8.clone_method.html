@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+	<script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+
+</head>
+<body>
+    <div class="contain1">
+        <h1>welcome contain 1</h1>
+    </div>
+    <div class="contain2">
+        <h2>welcome contain 2</h2>
+    </div>
+    <button>clone</button>
+    <script>
+        $(document).ready(function(){
+            $('button').click(function(){
+                $('.contain1 h1').clone().appendTo('.contain2');
+            })
+        })
+    </script>
+</body>
+</html>

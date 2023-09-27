@@ -1,0 +1,39 @@
+
+.first{
+	height: 650px;
+	width: 100%;
+	background-image: url(https://i.pinimg.com/originals/31/0d/4a/310d4a2f36b4fe4a07a31f5f7759a4d3.jpg);
+	background-size: 100%;
+	position: fixed;
+
+}
+.second {
+	height: 300px;
+	width: 300px;
+	background-image: url(https://media.giphy.com/media/WqQeexZAwWlbF1qPT2/giphy.gif);
+	background-repeat: no-repeat;
+	background-size: 100% ,100%;
+	animation-name: cartoon;
+	animation-duration:  10s;
+	position: relative;
+}
+@keyframes cartoon{
+	0%{top:430px;left:0px;}
+	10%{top:430px;left:16%;}
+	20%{top:370px;left:16%;}
+	25%{top:370px;left:25%;}
+	30%{top:430px;left:25%;}
+	35%{top:430px;left:32%;}
+	40%{top:350px;left:32%;}
+	45%{top:350px;left:40%;}
+	50%{top:430px;left:40%;}
+	55%{top:430px;left:47%;}
+	60%{top:310px;left:47%;}
+	65%{top:310px;left:55%;}
+	70%{top:430px;left:55%;}
+	75%{top:430px;left:65%;}
+	80%{top:310px;left:65%;}
+	85%{top:310px;left:75%;}
+	90%{top:430px;left:75%;}
+	95%{top:430px;left:90%;}
+}

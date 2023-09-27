@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulb</title>
+</head>
+<body>
+    
+
+    <!-- <img  id="image"  src="https://media.geeksforgeeks.org/wp-content/uploads/OFFbulb.jpg" alt="">  
+    <button onclick="trunOnOff()">On/Off</button>
+    <button onclick="trunOff()">Off</button>
+
+    <script>
+        function trunOnOff()
+        {
+            var img=document.getElementById('image');
+            if(img.src=="https://media.geeksforgeeks.org/wp-content/uploads/OFFbulb.jpg")
+            {
+                img.src="https://media.geeksforgeeks.org/wp-content/uploads/ONbulb.jpg";
+
+            }else{
+                img.src="https://media.geeksforgeeks.org/wp-content/uploads/OFFbulb.jpg"
+            }
+        }
+        function trunOff(){
+            var img1=document.getElementById('image');
+            
+        }
+    </script>   -->
+    <img id="image" src="https://media.geeksforgeeks.org/wp-content/uploads/OFFbulb.jpg" alt="" style="display: none;">
+    <img src="https://media.geeksforgeeks.org/wp-content/uploads/ONbulb.jpg" id="on1" >
+   <button onclick="off()">off</button>
+   <button onclick="on()">on</button>
+   <script>
+    function  off(){
+        var of=document.getElementById('image');
+        of.style.display="inline-block";
+        var on=document.getElementById('on1');
+        on.style.display="none";
+
+    }
+    function  on(){
+        var of=document.getElementById('image');
+        of.style.display="none";
+        var on=document.getElementById('on1');
+        on.style.display="inline-block";
+
+    }
+   </script>
+</body>
+</html>

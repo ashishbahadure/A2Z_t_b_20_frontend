@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+	<script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
+    <style>
+        .mydiv{
+            background-color: red;
+            width: 100%;
+            height: 100px;
+        }
+        .d-none{
+            display: none;
+        }
+    </style>
+</head>
+    <body>
+        <button id="mybtn">
+            <i class="fa fa-bars" id="menu_icon"></i>
+        </button>
+        <div class="mydiv d-none">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui dicta natus quasi ab animi optio harum! Reprehenderit dicta voluptatum molestias sed aliquam vitae deserunt architecto, sapiente quo ipsa, cum consequatur. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione iure facere, autem aliquam, fugiat perspiciatis quia ut debitis eveniet, deserunt culpa architecto quis asperiores consequatur? Porro eligendi ea harum ipsam.</div>
+        <script>
+            $(document).ready(function(){
+                $("#mybtn").click(function(){
+                $("#menu_icon").toggleClass('fa-bars');
+                $("#menu_icon").toggleClass('fa-close');
+
+                $(".mydiv").toggleClass('d-none');
+            });
+        });
+        </script>
+</body>
+</html>

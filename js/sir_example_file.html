@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+//1)		// checking holiday in a week
+		var day="monday";
+		if (day="sunday") {
+			document.write("only sunday this is holiday");
+		}
+		else{
+			document.write("this is not holiday");
+		};
+		document.write("<br>");
+		document.write("<br>");
+		document.write("*****************************************************");
+		document.write("<br>");
+		document.write("<br>");
+//2)		// check if a year is a leap year given a year check if it a leap year or not
+		var year=1800;
+		if (year%4==0) {
+			document.write("this is a leap year");
+		}
+		else{
+			document.write("this is a not leap year");
+		}
+		document.write("<br>");
+		document.write("<br>");
+		document.write("*****************************************************");
+		document.write("<br>");
+		document.write("<br>");
+//3)				// to calculate the total cost of fuel find out the number of liters of fuel required first
+		  var petrol=2;
+
+		  if (petrol<=100) {
+		  	var total=petrol*100;
+		  	var km=petrol*60;
+		  	document.write("total pertol price= "+total);
+		document.write("<br>");
+		  	document.write("run the vehical= "+km);
+		  }
+		document.write("<br>");
+		document.write("<br>");
+		document.write("*****************************************************");
+		document.write("<br>");
+		document.write("<br>");
+//4)		// c program to check palindrome numeber
+		var num=125;  //num=125;
+		var rev=0;   //rev=0;
+		var temp=num;   //temp=125
+		while(num!=0){//125=0 t 12=0 t 1=0
+			rev=(rev*10)+(num%10);//0+125%10=5==5*10==50+12%10=2==50+2=52==52*10 520+1
+															//520+1%10=1
+			num=parseInt(num/10);//125/10=12==12/10==1 1/10=0
+		}
+		document.write("rev= "+rev);//521
+		if (temp==rev) { 
+			document.write("<br>this number is palindrome");
+		}
+		else{
+			document.write("<br> this number is not pallindrome");
+		}
+		document.write("<br>");
+		document.write("<br>");
+		document.write("*****************************************************");
+		document.write("<br>");
+		document.write("<br>");
+//5)  program to check vowel or consonant
+		var v="ashish";
+		if (v=="a"|| v=="e"||v=="i"||v=="o"||v=="u" ){
+			document.write("this  is vowel ");
+		}
+		else if (v=="A"||v=="E"||v=="I"||v=="O"||v=="U") {
+			document.write("this is consonant");
+		}
+		else{
+			document.write("error");
+		}
+		
+		document.write("<br>");
+		document.write("<br>");
+		document.write("*****************************************************");
+		document.write("<br>");
+		document.write("<br>");
+//6 program which asigns a grade based on the value of a test score:an a for a score of 90% or above a B for a score of 80% or above and so on
+			var a=71;
+			if (a>=90) {
+				document.write("grade A")
+			}
+			else if (a>=80) {
+							document.write("grade B")
+	
+			}
+			else if (a>=70) {
+							document.write("grade C")
+	
+			}
+			else if (a>=60) {
+							document.write("grade D")
+	
+			}
+			else if (a>=35 || a<=60) {
+				document.write("only pass")
+			}
+			else{
+				document.write("fail")
+			}
+			document.write("<br>");
+		document.write("<br>");
+		document.write("*****************************************************");
+		document.write("<br>");
+		document.write("<br>");
+  
+//7) write a javascript program t input week number(1-7)and print the corresponding day of week name using if else
+	var day="1";
+	if (day="1") {
+		document.write("<br>sunday");
+	}
+	else if (day="2") {
+		document.write("<br> monday");
+	}
+	else if (day="3") {
+		document.write("<br> tuesday");
+	}
+	else if (day="4") {
+		document.write("<br> wedenseday");
+	}
+	else if (day="5") {
+		document.write("<br> thursday");
+	}
+	else if (day="6") {
+		document.write("<br>friday");
+	}
+	else if (day="7") {
+		document.write("<br>saturday");
+	}
+	else{
+		document.write("error")
+	}
+		document.write("<br>");
+		document.write("<br>");
+		document.write("*****************************************************");
+		document.write("<br>");
+		document.write("<br>");
+//8 enter month number between(1-12) and print numberr of days in month using i else
+	var month="12";
+	if (month=="1") {
+		document.write("january");
+	}
+	else if (month=="2") {
+		document.write("february");
+	}
+	else if (month=="3") {
+		document.write("march");
+	}
+	else if (month=="4") {
+		document.write("april");
+	}
+	else if (month=="5") {
+		document.write("may");
+	}
+	else if (month=="6") {
+		document.write("june");
+	}
+	else if (month=="7") {
+		document.write("july");
+	}
+	else if (month=="8") {
+		document.write("august");
+	}
+	else if (month=="9") {
+		document.write("saptember");
+	}
+	else if (month=="10") {
+		document.write("october");
+	}
+	else if (month=="11") {
+		document.write("november");
+	}
+	else if (month=="12") {
+		document.write("decemberr");
+	}
+	document.write("<br>");
+		document.write("<br>");
+		document.write("*****************************************************");
+		document.write("<br>");
+		document.write("<br>");
+//9)a school has followinng rules for grading system
+//a.below 25-F
+//b.25 to 45-E
+//c.45 to 50-D
+//d.50 to 60-C
+//e.60 to 80-B
+//f.above 80-A
+  var  mark=81;
+  if (mark<=25) {
+  	document.write("F");
+  }
+  else if (mark<=25 || mark<45) {
+  	document.write("E");
+  }
+  else if (mark<=45 || mark<50) {
+  	document.write("D");
+  }
+  else if (mark<=50 || mark<60) {
+  	document.write("C");
+  }
+  else if (mark<=60 || mark<80) {
+  	document.write("B");
+  }
+  else if (mark>=80) {
+  	document.write("A");
+  }
+  document.write("<br>");
+		document.write("<br>");
+		document.write("*****************************************************");
+		document.write("<br>");
+		document.write("<br>");
+//10)javascript program to dispplay fibonacci series;
+			var num=10;
+			var a=0;
+			var b=1;
+			var c=0;
+			var count=0;
+			while(count<num)//0<10//1<10
+			{
+				document.write("<br>"+a);
+				c=a+b;
+				a=b;
+				b=c;
+				count +=1;
+			}
+			document.write("<br>");
+		document.write("<br>");
+		document.write("*****************************************************");
+		document.write("<br>");
+		document.write("<br>");
+//11)program to print a number of day in a month
+
+		var month="12";
+	if (month=="1") {
+		document.write("january");
+	}
+	else if (month=="2") {
+		document.write("february");
+	}
+	else if (month=="3") {
+		document.write("march");
+	}
+	else if (month=="4") {
+		document.write("april");
+	}
+	else if (month=="5") {
+		document.write("may");
+	}
+	else if (month=="6") {
+		document.write("june");
+	}
+	else if (month=="7") {
+		document.write("july");
+	}
+	else if (month=="8") {
+		document.write("august");
+	}
+	else if (month=="9") {
+		document.write("saptember");
+	}
+	else if (month=="10") {
+		document.write("october");
+	}
+	else if (month=="11") {
+		document.write("november");
+	}
+	else if (month=="12") {
+		document.write("decemberr");
+	}
+	document.write("<br>");
+		document.write("<br>");
+		document.write("*****************************************************");
+		document.write("<br>");
+		document.write("<br>");
+//12) check whether the triangle is equilateral scalenc or isosceles
+		var a=10;
+		var b=11;
+		var c=10;
+		if (a==b && b==c && c==a) {
+			document.write("this triangle is equilateral");
+		}
+		else if (a==b || b==c || c==a) {
+			document.write("this triangle is isosceles");
+		}	
+		else{
+			document.write("this triangle is scalence")
+		}
+		document.write("<br>");
+		document.write("<br>");
+		document.write("*****************************************************");
+		document.write("<br>");
+		document.write("<br>");
+//13 javascript program to check whether a character is an alphabet or no
+		var ch="a";
+		if (ch>="a" && ch<="z" ||ch>="A" && ch<="Z" ) {
+			document.write("this is alphabet");
+		}
+		else{
+			document.write("this is no alphabet")
+		}		
+		document.write("<br>");
+		document.write("<br>");
+		document.write("*****************************************************");
+		document.write("<br>");
+		document.write("<br>");
+//14)javascript program to convert tempeature from fahrenheit to celsisus and celsius to fahrenheit
+			var tem=2;
+			var far=(tem*1.8)+32;
+			document.write("fahrenheit="+far)
+     
+     var far=32;
+     var tem=(far-32)/1.8;
+     document.write("<br>temp="+tem);
+     document.write("<br>");
+		document.write("<br>");
+		document.write("*****************************************************");
+		document.write("<br>");
+		document.write("<br>");
+//15) check if the number if positive negative or zero
+		var num="-1";
+		if (num>="1") {
+			document.write("positive");
+		}
+		else if (num<"0") {
+			document.write("negative");
+		}
+		else if (num=="0") {
+			document.write("zero");
+		}
+		document.write("<br>");
+		document.write("<br>");
+		document.write("*****************************************************");
+		document.write("<br>");
+		document.write("<br>");
+//16 program to find out whether a given value is prime or not
+	   var num="12";
+	   var i=2;
+	   	if (num%i!=0 ) {
+	   		document.write("<br>this is prime")
+	   	}
+	   	else{
+	   		document.write("this is not prime number")
+	   	}
+	   
+//17 program to find out whether a a number is divisible by provided no or not
+
+
+	  document.write("<br>");
+		document.write("<br>");
+		document.write("*****************************************************");
+		document.write("<br>");
+		document.write("<br>");
+//18 program to check uppercase or lowercase alphabets
+   	var char="A0";
+   	if(char<="a" && char>="z") {
+   		document.write("lowercase");
+   	}
+   	else if (char<="A" && char<="Z") {
+   		document.write("uppercase")
+   	}
+   	else{
+   		document.write("invalid")
+   	}
+
+   document.write("<br>");
+		document.write("<br>");
+		document.write("*****************************************************");
+		document.write("<br>");
+		document.write("<br>");
+//19 to check vowel or consonant
+	var v="ashish";
+		if (v=="a"|| v=="e"||v=="i"||v=="o"||v=="u" ){
+			document.write("this  is vowel ");
+		}
+		else if (v=="A"||v=="E"||v=="I"||v=="O"||v=="U") {
+			document.write("this is consonant");
+		}
+		else{
+			document.write("error");
+		}
+//20 to check number is prime or not
+// this porogam is solw in first
+
+//21 sort three numbers in order
+
+
+document.write("<br>");
+		document.write("<br>");
+		document.write("*****************************************************");
+		document.write("<br>");
+		document.write("<br>");
+
+//22 to check working hours in company
+			var hours=10;
+			var sallary=1000;
+			if (hours*sallary) {
+					total=hours*sallary;
+					document.write("my total sallary is="+total+"rupies")
+			}
+
+
+		document.write("<br>");
+		document.write("<br>");
+		document.write("*****************************************************");
+		document.write("<br>");
+		document.write("<br>");
+
+//23 to check person is child teenage or adult
+		var age="21";
+		if (age<13) {
+			document.write("child");
+		}
+		else if (age>=13 && age<=18) {
+			document.write("teenage")
+		}
+		else{
+			document.write("adult")
+		}
+		document.write("<br>");
+		document.write("<br>");
+		document.write("*****************************************************");
+		document.write("<br>");
+		document.write("<br>");
+//24 find all roots of quadratic equations
+		var a=1;
+	var b=4;
+	var c=4;
+	var root_part=Math.sqrt(b*b-4*a*c);
+	var denom=2*a;
+
+
+	var root1 =(-b + root_part)/denom;
+	var root2 =(-b- root_part)/denom;
+
+	document.write("1st root:"+root1+"<br>");
+	document.write("2st root:"+root2+"<br>");
+
+	document.write("<br>");
+		document.write("<br>");
+		document.write("*****************************************************");
+		document.write("<br>");
+		document.write("<br>");
+//25 to find factorial number
+			var number=6;
+			if (number<0) {
+				document.write("error! factorial for negative numberr does not exist")
+			}
+			else if (number==0) {
+				document.write("the factorial of is 1")
+			}
+			else{
+				var fact =1;
+				for(var i=1;i<=number;i++){
+					fact *=i;
+				}
+				document.write("the factorial of "+number+"  is "+ fact);
+			}
+
+
+document.write("<br>");
+		document.write("<br>");
+		document.write("*****************************************************");
+		document.write("<br>");
+		document.write("<br>");
+
+//26 progaram to check whether a person is eligible to corona vaccine eligible or not
+		var age=105;
+		if (age<=18) {
+			document.write("this is not eligible to corona vaccine")
+		}
+		else{
+			document.write("this is eligible to corona vaccine")
+
+		}
+		document.write("<br>");
+		document.write("<br>");
+		document.write("*****************************************************");
+		document.write("<br>");
+		document.write("<br>");
+//27 write a javascript program that accept two integers and display the larger
+		var a=101;
+		var b=11;
+		if (a>b) {
+			document.write(a+"=this number is larger");
+		}
+		else if (a<b) {
+			document.write(b+"=this number is larger")
+		}
+
+document.write("<br>");
+		document.write("<br>");
+		document.write("*****************************************************");
+		document.write("<br>");
+		document.write("<br>");
+//28 javascript program to input electricity unit changes and calculate total electricity bill
+			var unit=12;
+			total=unit*100;
+			document.write(total);
+
+
+		document.write("<br>");
+		document.write("<br>");
+		document.write("*****************************************************");
+		document.write("<br>");
+		document.write("<br>");
+//29 find the distance from you to your distance			
+				var distance=100;
+				var my_distance=10;
+				if (distance-my_distance) {
+					total=distance-my_distance;
+
+					document.write("my village distance "+total);
+				}
+			document.write("<br>");
+		document.write("<br>");
+		document.write("*****************************************************");
+		document.write("<br>");
+		document.write("<br>");
+//30 find the distance (km) pune, nagar,nashik,sangamner,kopargaon
+							var distance="nagpur"
+
+			if (distance=="pune") {
+				dis=100;
+				document.write("pune is="+dis+"km");
+			}
+			else if(distance=="nagpur") {
+				dis=200;
+				document.write("nagpur is ="+dis+"km");
+			}
+
+
+document.write("<br>");
+		document.write("<br>");
+		document.write("*****************************************************");
+		document.write("<br>");
+		document.write("<br>");
+//31 monitor the shuttle fuel status if fuel level is above 20000 and engine teperature is at or below 2500 print full tank engines good 
+//and if fuellevel is above 10000 and engine temperature is at or below 2500 print fuel level above 50% engines good 
+//fuellevel is above 5000 engine temperature is at or below 2500 print fuel level above 25% engines good 
+//if fuellevel is below 1000 or engine tempreatuere is above 23500 or engine indicatorlight is red blinking print engine failure imminent
+//otherwise print fuel and endine status pending
+		var fuel=5000;
+		var temp=3500;
+		if(fuel>=20000 && temp<=2500){
+			document.write("full tank.engine good");
+		}
+		else if (fuel>=10000 && temp>=2500) {
+			document.write("full tank 50%.engine is good");
+		}
+		else if (fuel>=5000 && temp<=3500) {
+			document.write("full level above 25%. engine good ");
+		}
+		else if (fuel>=1000 && temp<=3500) {
+			document.write("engine failure imminent!");
+		}
+
+
+ document.write("<br>");
+		document.write("<br>");
+		document.write("*****************************************************");
+		document.write("<br>");
+		document.write("<br>");
+//32 check the ratio of height and weight and find the person is helthy or not
+			var weight=90;
+			var height=290;
+			if (weight<=25 && height<=150) {
+				document.write("this person is not helthy");
+			}
+			else if (weight<=75 && height<=200) {
+				document.write("this person is helthy");
+			}
+			else{
+				document.write("this person over weight ")
+			}
+
+
+document.write("<br>");
+		document.write("<br>");
+		document.write("*****************************************************");
+		document.write("<br>");
+		document.write("<br>");
+//33 javascript program to calculate profit or loss
+		var buy=1000;
+		var sell=5000;
+		if (buy>sell) {
+			total=buy-sell;
+			document.write("loss="+total);
+		}
+		else if (buy<sell) {
+			total=sell-buy;
+			document.write("profit="+total);
+		}
+
+
+document.write("<br>");
+		document.write("<br>");
+		document.write("*****************************************************");
+		document.write("<br>");
+		document.write("<br>");
+//34 find the distance in kilometers
+			var distance="nagpur"
+
+			if (distance=="pune") {
+				dis=100;
+				document.write("pune is="+dis+"km");
+			}
+			else if(distance=="nagpur") {
+				dis=200;
+				document.write("nagpur is ="+dis+"km");
+			}
+
+
+document.write("<br>");
+		document.write("<br>");
+		document.write("*****************************************************");
+		document.write("<br>");
+		document.write("<br>");
+
+//35 program to find roots of quadratic equation
+	var a=1;
+	var b=4;
+	var c=4;
+	var root_part=Math.sqrt(b*b-4*a*c);
+	var denom=2*a;
+
+
+	var root1 =(-b + root_part)/denom;
+	var root2 =(-b- root_part)/denom;
+
+	document.write("1st root:"+root1+"<br>");
+	document.write("2st root:"+root2+"<br>");
+	</script>
+		
+</body>
+</html>
+
+ 

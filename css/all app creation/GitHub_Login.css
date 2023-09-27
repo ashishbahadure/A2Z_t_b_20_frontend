@@ -1,0 +1,25 @@
+
+
+
+.lastpart{
+	position: absolute;
+	bottom: 90px;
+	left: 300px;
+	
+}
+
+.lastpart ul li{
+	display: inline-block;
+	/*right: 0px;*/
+	margin-right: 20px;
+	font-size: 30px;
+	word-spacing: 10px;
+	color: white;
+
+}
+
+
+
+
+
+

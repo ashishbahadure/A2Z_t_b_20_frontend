@@ -1,0 +1,76 @@
+*{margin: 0px;
+padding: 0px;
+}
+.firstdiv{
+	height: 680px;
+	width: 100%;
+	float: left;
+	background-size: 100% 100%;
+	background-image: url("netflix.jpg");
+	
+	position: fixed;
+	top:0px;	
+}
+.blur{
+	height: 100%;
+	width: 100%;
+	background: hsla(0,0%,0%,0.5);
+}
+.menubar{
+	height: 100px;
+	width: 100%;
+	background-color: ;
+}
+.menubar1{
+	height: 100px;
+	width: 50%;
+	background-color: ;
+	float: left;
+}
+.menubar1 img{
+	height: 70px;
+	width: 140px;
+	float: left;
+	margin-left: 80px;
+	margin-top: 20px;
+
+}
+
+.menubar2{
+	height: 100px;
+	width: 50%;
+	background-color: /*green*/;
+	float: left;
+}
+
+.choose {
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+.text{
+	color: snow;
+	text-align: center;
+	margin-top: 150px;
+	background-color: ;
+	float: left;
+	margin-left: -410px;
+	font-size: 30px;
+	}
+
+.text h1{
+	color: snow;
+	text-shadow: 100px 100px 100px 100px black;
+
+}
+.text input{
+	height: 57px;
+	width: 471px;
+	margin-left: -41px;
+	font-size: 30px;
+}
+
+.icon{
+	color: white;
+	font-size: 40px;
+}

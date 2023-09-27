@@ -1,0 +1,10 @@
+
+.demo{
+	border: 1px solid black;
+	background-color: yellow;
+	border-color: black;
+}.demo tr{
+	border: 1px solid black;
+	background-color: yellow;
+	border-color: black;
+}

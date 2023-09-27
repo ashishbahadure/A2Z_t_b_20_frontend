@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		#ashish{
+			/*color: red;*/
+			background-color: green
+		}
+		#first{
+			height: 100px;
+			width: 100%;
+			background-color: red;
+			color: white;
+			text-align: center;
+			padding-top: 20px;
+
+		}
+		#secend {
+			height: 100px;
+			width: 100%;
+			background-color: skyblue;
+			list-style-type: inline-block;
+
+		}
+	</style>
+</head>
+<body> 
+	<h4>hello</h4>
+	<h4>friend</h4>
+	<h1 id="ashish">ashish bahadure</h1>
+	<h1 id="college">new art college nagar</h1>
+	<button onclick="myid()">chenage</button>
+
+	<script type="text/javascript">
+		document.getElementById('ashish').style.background="yellow"
+		document.getElementById('ashish').innerHTML="ashish bahadure a2z student"
+	</script>
+		<div id="first">
+			<h1>ashish bahadure a2z</h1>
+			<h2>a2z infotech it hub</h2>
+		</div>
+		<div id="secend">
+		<ul style="list-style-type:initial;">
+			<li>HOme</li>
+			<li>about us</li>
+			<li>gallary</li>
+		</ul>
+		</div>
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMtAgslBqFAhrydwVznYgiMUNxbnAKcCuiLW1TMil-&s">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+		<p>tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>,
+		<p>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+		<p>consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse</p>
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<script type="text/javascript">
+			document.getElementById('ashish');
+			console.log(ashish);
+			element=document.all;
+			console.log(element);
+			var b=document.body;
+			console.log(b);
+			function myid() {
+				var d1=document.getElementById('ashish').innerText;
+				console.log(d1);
+				var d2=document.getElementById('college').innerText;
+
+				document.getElementById('ashish').innerText=d2;
+				document.getElementById('college').innerText=d1;
+				document.getElementById('ashish').style.background="green";
+				document.getElementById('ashish').style.border="10px solid blue";
+				document.getElementById('college').style.background="pink";
+				document.getElementById('college').style.border="10px solid black";
+
+			}
+		</script>
+		<!-- getelementsbyclssName() -->
+		<ul>
+			<li class="data">html</li>
+			<li class="data">css</li>
+			<li class="data1">java</li>
+			<li class="data">python</li>
+			<button onclick="myid()">moment</button>
+
+		</ul>
+		<script type="text/javascript">
+		var a=document.getElementsByClassName('data');
+			console.log(a[0]);
+			var b=document.getElementsByClassName('data');
+			console.log(b[0]);
+			console.log(a[2].innerHTML);
+		   console.log(b);
+		   console.log(b[0].innerHTML);
+
+			// set
+			// var a=document.getElementsByClassName('data')[0].innerHTML="welcome in html technique";
+			// var a=document.getElementsByClassName('data')[0].style.background="green";
+
+			function myid(){
+			var a=document.getElementsByClassName('data')[0].innerHTML="welcome in html technique";
+			var a=document.getElementsByClassName('data')[0].style.background="green";
+
+			var a=document.getElementsByClassName('data')[1].innerHTML="welcome in css technique";
+			var a=document.getElementsByClassName('data')[1].style.background="deeppink";
+
+			var a=document.getElementsByClassName('data')[2].innerHTML="welcome in java technique";
+			var a=document.getElementsByClassName('data')[2].style.background="pink";
+
+			var b=document.getElementsByClassName('data1')[0].style.background="grey";
+
+			}
+
+
+		</script>
+		<!-- getElementsByTagName -->
+		<script type="text/javascript">
+			var a=document.getElementsByTagName('p');
+			var b=document.getElementsByTagName('h4');
+		console.log(a[0].innerHTML);
+		console.log(a[1].innerHTML);
+		console.log(b[0].innerHTML);
+		console.log(b[1].innerHTML);
+		</script>
+		<form name="form">
+		<input type="text" name="name"><br><br>
+		<input type="text" name="email"value="a@gmail.com"><br><br>
+		<input type="text" name="email"><br><br>
+		<input type="text" name="phon"><br><br>
+	</form>
+	<script type="text/javascript">
+		var a=document.getElementsByName('email');
+		console.log(a[0].value);
+		console.log(document.form.email[0].value);
+		//set
+		document.getElementsByName('email')[1].value="b@mail.com"
+	</script>
+
+</body>
+</html>

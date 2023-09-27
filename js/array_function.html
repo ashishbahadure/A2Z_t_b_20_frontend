@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+	var arr=new Array();
+	for(var i=0;i<25;i++){
+		arr[i]=i+1;
+		// var sum=arr;
+	}
+	document.write(arr);
+	console.log(arr);
+	arr.reverse("reverse");
+	document.write("<br><br>"+arr);
+	document.write("<br>");
+	document.write("<br>");
+	document.write("<br>");
+	// shift function
+	arr.shift();
+	document.write(arr);
+	arr.unshift(100,200,300);
+	document.write("<br>"+arr);
+		document.write("<br>");
+	document.write("<br>");
+	document.write("<br>");
+	// pop and push
+	arr.pop();
+	document.write(arr);
+	arr.push(120,130,100);
+	document.write("<br><br>"+arr);
+	document.write("<br>");
+	document.write("<br>");
+	var a=arr.splice(5,4);
+	document.write("<br>"+a);
+	document.write("<br>");
+	document.write("<br>");
+	var ab=arr.slice();
+	document.write("<br>"+ab);
+	document.write("<br>");
+	var ac=arr.indexOf(100,5);
+	document.write("<br>"+ac);
+
+	var a=arr.join("+");
+	document.write("<br>"+a);
+</script>
+</body>
+</html>

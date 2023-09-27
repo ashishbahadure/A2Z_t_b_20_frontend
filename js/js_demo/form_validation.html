@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<form action="abcd.html">
+		<b>enter student name</b>
+		<input type="text" name="student_name" id="student_name"onkeyup="validate_student_name()"style="outline: none;">
+		<br><br>
+		<b>enter student Mobile</b>
+		<input type="number" name="student_mobile"id="student_mobile">
+		<br><br>
+		<button >SAVE STUDENT</button>
+	</form>
+	<script type="text/javascript">
+		function validate_student_name(){
+				var spattern=/^[a-zA-Z]{2,30}$/;
+				var sn=document.getElementById('student_name');
+				if (sn.value.match(spattern)) {
+					sn.style.border="2px solid green";
+				}
+				else{
+					sn.style.border="2px solid red";
+				}
+		}
+	</script>
+</body>
+</html>

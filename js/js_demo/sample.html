@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.mydiv{
+			height: 100px;
+			width: 100px;
+			background-color: red;
+			margin:5px;
+			float: left;
+		}
+	</style>
+</head>
+<body><!-- 
+	<div class="mydiv"></div>
+	<div class="mydiv"></div>
+	<div class="mydiv"></div>
+	<div class="mydiv"></div>
+	<div class="mydiv"></div>
+	<div class="mydiv"></div>
+	<div class="mydiv"></div>
+	<div class="mydiv"></div>
+	<div class="mydiv"></div>
+	<div class="mydiv" id="ten"onclick="fun1()"></div> -->
+
+<script type="text/javascript">
+	// function fun1() {
+	// document.getElementById('ten').style.background="blue";
+			
+	// }
+ for(i=0;i<10;i++){
+ 	document.write('<div class="mydiv" onmouseover="changeColor(this)"></div>');
+ 	function changeColor(elmt){
+ 		elmt.style.background="blue";
+ 		setTimeout(function(){
+ 			elmt.style.background="red";
+ 		},20000)
+ 	}
+ }
+</script>
+</body>
+</html>

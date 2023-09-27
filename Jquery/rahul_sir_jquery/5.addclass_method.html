@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+	<script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+<style>
+    .box{
+        height: 100px;
+        width: 300px;
+        float: left;
+        background-color: red;
+    }
+    .box1{
+        height: 100px;
+        width: 300px;
+        float: left;
+        background-color: blue;
+    }
+</style>
+</head>
+<body>
+    <div id="box" class="box"></div>
+    <button id="btn">add class</button>
+    <button id="btn1">remove class</button>
+    <button id="btn2 ">toggle class</button>
+    <script>
+        $(document).ready(function(){
+            $('#btn').click(function(){
+                $('#box').addClass('box1');
+            });
+            $('#btn1').click(function(){
+                $('#box').removeClass(' box1');
+            });
+            $('#btn2').click(function(){
+                $('#box').toggleClass(' box1');
+            });
+        })
+    </script>
+</body>
+</html>

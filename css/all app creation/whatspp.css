@@ -1,0 +1,644 @@
+*{
+	margin: 0px;
+	padding:0px;
+}
+body{
+	height: 650px;
+	width: 100%;
+	background-image: url(https://i.pinimg.com/originals/ab/ab/60/abab60f06ab52fa7846593e6ae0c9a0b.png);
+	/*background-size: 100% 100%;*/
+}
+.right{
+	height: 650px;
+	width: 30%;
+	/*background-color:red;*/
+	float: left;
+	overflow-y: scroll;
+}
+
+
+.left{
+	height: 650px;
+	width: 70%;
+	/*background-color:aqua;*/
+	float: left;
+	overflow: scroll;
+}
+.bar{
+	height: 70px;
+	width: 70px;
+	background-color: red;
+	border-radius: 50px;
+	margin: 1px;
+	float: left;
+	border:2px solid green;
+
+
+}
+.bar img{
+	height: 70px;
+	width: 70px;
+	border-radius: 40px;
+}
+
+.bar2{
+	font-size: 20px;
+	color: grey;
+	line-height: 30px;
+	float: left;
+
+}
+.bar2 h1{
+	color: white;
+	/*float: left;*/
+	text-shadow: 5px 5px 10px 10px black;
+	margin-top: 20px;
+	line-height: 30px;
+	
+
+}
+.logo{
+
+	height:100px;width: 100%;
+
+}
+.logo ul {
+	height: 100%;
+	width: 100%;
+	
+}
+.logo ul li{
+	color: white;
+	text-align: center;
+	font-size: 20px;
+		display: inline-block;
+		font-size: 40px;
+		margin-left: 20px;
+		margin-top: 10px;
+		float: right;
+}
+.icon5{
+	color: white;
+	font-size: 30px;
+}
+.icon8{
+
+	font-size: 40px;
+	color: white;
+	margin-top: 20px;
+	margin-left: 10px;
+	float:right;
+}
+.icon2{
+	font-size: 40px;
+	color: white;
+	margin-top: 20px;
+	margin-left: 10px;
+	float:left;
+}
+.icon3{
+	font-size: 40px;
+	color: white;
+	margin-top: 20px;
+	margin-left: 300px;
+	float:left;
+}
+.icon4{
+	font-size: 10px;
+	color: white;
+	margin-top: 20px;
+	margin-left: 300px;
+	float:left;
+}
+
+
+.div1{
+	height: 72px;
+	width: 100%;
+	background-color:#06371f;
+	float: left;
+	border-bottom: 2px solid white;
+	/*margin-top: 10px;*/
+	/*overflow: scroll;*/
+	/*text-align: center;*/
+	/*margin-left: 2s0px;*/
+	color: grey;
+	font-size: 20px;
+	/*text-indent: 5px;*/
+
+}
+.div1 img{
+	height: 50px;
+	width: 50px;
+	border-radius: 40px;
+	margin-top: 10px;
+	float: left;
+	background-color: red;
+}
+.ashish1{
+	color: white;
+}
+ .as{
+ 	height: 100px;
+ 	width: 350px;
+ 	background-color: red;
+ 	color: white;
+ }
+.div{
+	height: 72px;
+	width: 100%;
+	background-color:#06371f;
+	float: left;
+	border-bottom: 2px solid white;
+	/*margin-top: 10px;*/
+	/*overflow: scroll;*/
+	/*text-align: center;*/
+	/*margin-left: 2s0px;*/
+	color: grey;
+	font-size: 20px;
+	/*text-indent: 5px;*/
+
+}
+.div img{
+	height: 50px;
+	width: 50px;
+	border-radius: 40px;
+	margin-top: 10px;
+	float: left;
+	background-color: red;
+}
+.div h2{
+	color: white;
+	padding-left: 10px;
+	font-size: 21px;
+	text-indent: 10px;
+}
+.div span{
+	float: right;
+}
+.div p{
+	text-indent: 10px;
+}
+.first_left_div{
+	height: 80px;
+	width: 100%;
+	background-color:#06371f;
+	float: left;
+	position: sticky;
+	top: 0px;
+	border-radius: 10px;
+
+}
+.chating{
+	height: 60px;
+	width: 300px;
+	background-color: ;
+	margin-top: 10px;
+	float: left;
+	clear: left;
+
+}
+.chating1{
+	height: 30px;
+	width: 350px;
+	/*background-color:;*/
+	margin-top: 10px;
+	float: right;
+	clear: right;
+}
+
+.chatinga{
+	/*height: 57px;*/
+	/*width: 300px;*/
+	background-color:black/*, black*/;
+	margin-top: 10px;
+	float: left;
+	clear: left;
+	font-size: 17px;
+	text-align:right;
+	/*padding-bottom: 10px;*/
+	text-align:left;
+	color: white;
+	margin-left: 2px;
+	
+
+}
+
+.chatinga span{
+	font-size: 10px;
+	margin-left: 5px;
+	word-spacing: 2px;
+
+}
+
+.chatingb{
+	height:40px;
+	width: 220px;
+	background-color:black/*, black*/;
+	margin-top: 14px;
+	float:right;
+	clear: left;
+	font-size: 17px;
+	/*text-align:right;*/
+	padding-left:  10px;
+	text-align:left;
+	color: white;
+	margin-left: 2px;
+	border-radius: 20px;
+
+
+	}
+
+.chatingb span{
+	font-size: 10px;
+	margin-left: 160px;
+
+}
+
+.chatingc{
+	height:40px;
+	width: 300px;
+	background-color:black/*, black*/;
+	margin-top: 14px;
+	float:left;
+	clear: left;
+	font-size: 17px;
+	/*text-align:right;*/
+	padding-left:  10px;
+	text-align:left;
+	color: white;
+	margin-left: 2px;
+	border-radius: 20px;
+
+
+	}
+
+.chatingc span{
+	font-size: 10px;
+	margin-left: 200px;
+
+}
+
+.chatingd{
+	height:55px;
+	width: 300px;
+	background-color:black/*, black*/;
+	margin-top: 14px;
+	float:right;
+	clear: left;
+	font-size: 17px;
+	/*text-align:right;*/
+	padding-left:  10px;
+	text-align:left;
+	color: white;
+	margin-left: 2px;
+	border-radius: 20px;
+
+
+	}
+
+.chatingd span{
+	font-size: 10px;
+	margin-left: 180px;
+
+}
+
+.chatinge{
+	height:55px;
+	width: 300px;
+	background-color:black/*, black*/;
+	margin-top: 79px;
+	float:left;
+	clear: left;
+	font-size: 17px;
+	/*text-align:right;*/
+	padding-left:  10px;
+	text-align:left;
+	color: white;
+	margin-left: 2px;
+	border-radius: 20px;
+
+
+	}
+
+.chatinge span{
+	font-size: 10px;
+	margin-left: 190px;
+
+}
+.chatingf{
+	height:55px;
+	width: 300px;
+	background-color:black/*, black*/;
+	margin-top: 14px;
+	float:right;
+	clear: left;
+	font-size: 17px;
+	/*text-align:right;*/
+	padding-left:  10px;
+	text-align:left;
+	color: white;
+	margin-left: 2px;
+	border-radius: 20px;
+
+
+	}
+
+.chatingf span{
+	font-size: 17px;
+	margin-left: 20px;
+
+}
+
+.chatingg{
+	height:55px;
+	width: 300px;
+	background-color:black/*, black*/;
+	margin-top: 79px;
+	float:left;
+	clear: left;
+	font-size: 17px;
+	/*text-align:right;*/
+	padding-left:  10px;
+	text-align:left;
+	color: white;
+	margin-left: 2px;
+	border-radius: 20px;
+
+
+	}
+
+.chatingg span{
+	font-size: 10px;
+	margin-left: 130px;
+
+}
+
+.chatingh{
+	height:30px;
+	width: 200px;
+	background-color:black/*, black*/;
+	margin-top: 79px;
+	float:left;
+	clear: left;
+	font-size: 17px;
+	text-align:center;
+	padding-left:  10px;
+	text-align:left;
+	color: white;
+	margin-left: 250px;
+	border-radius: 20px;
+
+
+	}
+.chatingfk{
+	height:40px;
+	width: 300px;
+	background-color:black/*, black*/;
+	margin-top: 14px;
+	float:right;
+	clear: left;
+	font-size: 17px;
+	/*text-align:right;*/
+	padding-left:  10px;
+	text-align:left;
+	color: white;
+	margin-left: 2px;
+	border-radius: 20px;
+
+
+	}
+
+.chatingfk span{
+	font-size: 10px;
+	margin-left: 160px;
+
+}
+
+.chatingh span{
+	font-size: 17px;
+	/*margin-left: 20px;*/
+	text-align: center;
+
+}
+.chatingi{
+	height:255px;
+	width: 370px;
+	background-color:black/*, black*/;
+	margin-top: 79px;
+	float:left;
+	clear: left;
+	font-size: 17px;
+	/*text-align:right;*/
+	padding-left:  10px;
+	text-align:left;
+	color: white;
+	margin-left: 2px;
+	border-radius: 20px;
+
+
+	}
+
+.chatingi span{
+	font-size: 10px;
+	margin-left: 20px;
+
+}
+.chatingi img{
+	height: 255px;
+	width: 360px;
+}
+.chatingfg{
+	height:40px;
+	width: 300px;
+	background-color:black/*, black*/;
+	margin-top: 14px;
+	float:right;
+	clear: left;
+	font-size: 17px;
+	/*text-align:right;*/
+	padding-left:  10px;
+	text-align:left;
+	color: white;
+	margin-left: 2px;
+	border-radius: 20px;
+
+
+	}
+
+.chatingfg span{
+	font-size: 10px;
+	margin-left: 210px;
+
+}
+
+
+.chatingf{
+	height:40px;
+	width: 300px;
+	background-color:black/*, black*/;
+	margin-top: 14px;
+	float:right;
+	clear: left;
+	font-size: 17px;
+	/*text-align:right;*/
+	padding-left:  10px;
+	text-align:left;
+	color: white;
+	margin-left: 2px;
+	border-radius: 20px;
+
+
+	}
+
+.chatingf span{
+	font-size: 10px;
+	margin-left: 240px;
+
+}
+
+
+
+.chatingff{
+	height:40px;
+	width: 300px;
+	background-color:black/*, black*/;
+	margin-top: 14px;
+	float:right;
+	clear: left;
+	font-size: 17px;
+	/*text-align:right;*/
+	padding-left:  10px;
+	text-align:left;
+	color: white;
+	margin-left: 2px;
+	border-radius: 20px;
+
+
+	}
+
+.chatingff span{
+	font-size: 10px;
+	margin-left: 160px;
+
+}
+.chatingk{
+	height:30px;
+	width: 180px;
+	background-color:black/*, black*/;
+	margin-top: 79px;
+	float:left;
+	clear: left;
+	font-size: 17px;
+	/*text-align:right;*/
+	padding-left:  10px;
+	text-align:left;
+	color: white;
+	margin-left: 2px;
+	border-radius: 20px;
+
+
+	}
+
+.chatingk span{
+	font-size: 10px;
+	margin-left: 50px;
+
+}
+.chatingii{
+	height:355px;
+	width: 470px;
+	background-color:black/*, black*/;
+	margin-top: 79px;
+	float:left;
+	clear: left;
+	font-size: 17px;
+	/*text-align:right;*/
+	padding-left:  10px;
+	text-align:left;
+	color: white;
+	margin-left: 2px;
+	border-radius: 20px;
+	padding: 10px;
+
+
+	}
+
+
+.chatinghh{
+	height:40px;
+	width: 160px;
+	background-color:black/*, black*/;
+	margin-top: 60px;
+	float:left;
+	clear: left;
+	font-size: 17px;
+	text-align:center;
+	padding-left:  10px;
+	text-align:center;
+	color: white;
+	margin-left: 270px;
+	border-radius: 10px;
+	position:fixed;
+	top: 20px; 
+	/*position: sticky;*/
+	/*top: 120px;*/
+
+
+
+	}
+
+.chatinghh span{
+	font-size: 17px;
+	/*margin-left: 20px;*/
+	text-align: center;
+
+}
+.lastbar{
+	height: 70px;
+	width: 80%;
+	background-color:black;
+	float: left;
+	margin-top: 20px;
+	border-radius: 30px;
+	margin-left: 100px;
+
+}
+.ashish{
+	height: 90px;
+	width: 87%;
+	float: left;
+
+
+}
+.icon{
+	font-size: 30px;
+	color: white;
+	margin-top: 15px;
+	margin-left: 10px;
+	float: left;
+
+}
+.input{
+	width: 400px;
+	height: 40px;
+	margin-top: 10px;
+	font-size: 30px;
+	float: left;
+	background-color:black;
+	border-color: black;
+	color: white;
+}
+
+.mike{
+	height: 90px;
+	width: 90px;
+	background-color: #0ef598;
+	font-size: 60px;
+	border-radius: 80px;
+	color: white;
+	text-align: center;
+	float: left;
+	/*margin-top: 10px;*/
+
+}

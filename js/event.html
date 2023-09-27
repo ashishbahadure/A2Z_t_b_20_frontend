@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		.box{
+			height: 400px;
+			width: 100%;
+			background-color: red;
+		}
+	</style>
+</head>
+<body>
+	<div class="box"id="data"onclick="fun1()"ondblclick="fun2()"oncontextmenu="fun3()"onmouseover="fun4()"onmouseout="fun5()"></div>
+	<script type="text/javascript">
+	function fun1() {
+		document.getElementById('data').style.background="green";
+	}
+	function fun2() {
+		document.getElementById('data').style.background="yellow";
+	}
+	function fun3(){
+		document.getElementById('data').style.background="black";
+	}
+	function fun4(){
+		document.getElementById('data').style.background="pink";
+	}
+	function fun5(){
+		document.getElementById('data').style.background="orange";
+	}
+	</script>
+</body>
+</html>

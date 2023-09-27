@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h1 id="data"><mark>welcome</mark></h1>
+	<h1 id="data1"></h1>
+<script type="text/javascript">
+	var a=document.getElementById('data').innerHTML;
+	document.getElementById("data1").innerHTML="<mark>welcome</mark>";
+
+
+
+</script>
+<!-- attribute thorw data get and set -->
+<style type="text/css">
+	.box{height: 300px;width: 300px;background-color: red}
+	.box1{height: 300px;width: 300px;background-color: blue}
+</style>
+<div id="data" class="box demo"></div>
+<script type="text/javascript">
+	var a=document.getElementById('data').getAttribute('id');
+	document.getElementById('data').setAttribute("class","box1")
+</script>
+</body>
+</html>

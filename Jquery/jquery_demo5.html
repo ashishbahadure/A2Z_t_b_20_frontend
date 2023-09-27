@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+
+</head>
+<body>
+<input type="text"id="inp1">
+<button id="hi_btn">say Hii</button>
+<button id="by_btn">say bye</button>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#hi_btn").click(function(){
+
+			var name=$("#inp1").val();
+			alert("hii "+name);
+		})
+		$("#by_btn").click(function(){
+			var name=$("#inp1").val();
+			alert("bye "+name);
+		})
+	})
+</script>
+</body>
+</html>

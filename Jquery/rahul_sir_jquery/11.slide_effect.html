@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+	<script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+    <style>
+        .box{
+            height: 400px;
+            width: 400px;
+            background-color: red;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    <button id="slideup">slideup</button>
+    <button id="slidedown">slidedown</button>
+    <button id="toggle1">toggle</button>
+    <script>
+        $(document).ready(function(){
+            $('#slideup').click(function(){
+                $('.box').slideUp(5000);
+            })
+            $('#slidedown').click(function(){
+                $('.box').slideDown(5000);
+            })
+            $('#toggle1').click(function(){
+                $('.box').slideToggle(5000);
+            })
+        })
+    </script>
+</body>
+</html>

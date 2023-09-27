@@ -1,0 +1,22 @@
+*{margin:0px;}
+.air{
+	height: 630px;
+	width: 100%;
+	background-image: url(https://www.shutterstock.com/image-illustration/picture-highway-that-passing-through-600w-1837837225.jpg);
+	background-size: 100%;
+	position: fixed;
+}
+.air img{
+	height: 200px;
+	width: 400px;
+	animation-name: airplane;
+	animation-duration: 20s;
+	position: relative;
+	
+}
+
+@keyframes airplane{ 
+	0%{top:380px;left:1200px;}
+	10%{left:700px;top:380px;}
+	40%{top:-300px;left:-500px;}
+}

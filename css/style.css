@@ -1,0 +1,613 @@
+.data{
+	color:red;
+	background-color: skyblue;
+	padding:20px;
+
+}
+.demo{
+	column-count: 2px;
+	color: red;
+}
+.border_prop{
+	width: 400px;
+	height: 400px;
+	color:red;
+	background-color: black;
+	border-width: 10px;
+	border-style: dotted;
+	border-top-width: 11px;
+	border-top-style: solid;
+	border-top-color: red;
+	border-bottom-width: 11px;
+	border-bottom-style: solid;
+	border-bottom-color: red;
+	border-right-width: 11px;
+	border-right-style: solid;
+	border-right-color: green;
+	border-left-width: 11px;
+	border-left-style: solid;
+	border-left-color:yellow;
+	float: left;
+	/*mi*/
+}
+	.mix_prop{
+		width: 400px;
+	height: 400px;
+	color:red;
+	background-color: black;
+	border-width: 10px;
+	
+	border: 20px solid orange;
+	border-top: 20px solid green;
+	border-right: 20px solid yellow;
+	border-left:20px solid red;
+	border-bottom: 20px solid deeppink;
+	float: left;
+	box-sizing: border-box;
+	border-collapse: collapse; /*single border */
+
+}
+
+.outline_border{
+	margin: 50px;
+	height: 400px;
+	width: 400px;
+	background-color: red;
+	/*outline: 20px solid green;*/
+	/*border:20px solid green;*/
+	outline-offset: 30px;
+	float: left;
+	outline-top: 3px solid yellow;
+	outline:20px dotted green;
+	outline:3px solid black;
+	 
+
+}
+
+.border_radius{
+	height: 400px;
+	width: 400px;
+	background-color: blue;
+	border-radius: 100px;
+	border-radius: 100px 200px 300px 400px;
+	float: left;
+}
+.ashish{
+	height: 300px;
+	width: 300px;
+	background-color:red;
+	border-radius: 5px 9px; 
+	float: left;
+}
+
+
+/*dash
+grow
+hidden
+dot
+none
+*/
+.text_font_prop{
+	color: red;
+	text-align: center;
+	text-align-right;
+	text-align-left;
+	text-align:justify;
+	text-align-last: center;
+	text-transform: uppercase;
+	text-transform:lowercase;
+	text-transform: capitalize;
+	text-decoration: underline;
+	text-decoration-style: dotted;
+	text-decoration: overline;
+	text-decoration: line-through;
+	text-decoration-color: green;
+	text-indent: 100px;
+	word-spacing: 100px;
+	letter-spacing: 100px;
+	line-height: 2.0;
+
+}
+  /*font*/
+  .font_prop{
+  font-weight: bold;
+  font-style: italic;
+  font-family: arial;
+  font-style: oblique;
+  font-family: 'Antonio', sans-serif;
+  color: red;
+  font-color:black;
+  
+
+
+
+}
+/*66*/
+.height_prop{
+	height: 100px;
+	max-height: 200px;
+	min-height: 300px;
+}
+	.width{
+		width: 400px;
+		max-width: 500px;
+		min-width: 600px;
+}
+.float_prop{
+	height: 200px;
+	width: 200px;
+	background-color: red;
+	float: left;
+}
+.cle{
+	clear: right;
+	clear: left;
+
+}
+
+.margin_prop{
+	height: 400px;
+	width: 400px;
+	background-color: red;
+	margin-top: 100px;
+	margin-left: 100px;
+	margin-bottom: 100px;
+	margin-right: 100px;
+	margin: 1	00px;
+	float: left;
+}
+.margin_prop1{
+	height: 400px;
+	width: 100%;
+	background-color: green;
+	float: left;
+}
+/*79all prop*/
+.padding_box{
+	height: 400px;
+	width: 400px;
+	float: left;
+	background-color: red;
+	padding: 100px;
+	padding-top: 50px;
+	padding-right: 50px;
+	padding-bottom: 50px;
+	padding-left: 10px;
+}
+
+.background_img_prop{
+	height: 550px;
+	width: 100%;
+	background-color: red;
+	background-image: url(ashish.jpg);
+	background-repeat: no-repeat;
+	background-repeat: repeat-x;
+	background-repeat: repeat-y;
+
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-position: top center;
+	background-position: top right;
+	background-position: center center;
+	background-position: center right;
+	background-position: center left;
+	background-position: bottom center;
+	background-position: bottom right;
+	background-position: bottom left;
+	/*background-position: 300px 30px;*/
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	background-color: red;
+	background text-underline-position:
+	background-transparent;
+}
+.background_prop1{
+	height: 900px;
+	width: 100%;
+	float: left;
+	background-color: red;
+}
+/*91 all prop*/
+/*color*/
+.color{
+	height: 600px;
+	width: 100px;
+	background:#f55bcc;
+	float: left
+}
+.color_box{
+	height: 600px;
+	width: 100px;
+	background:#cf0f08;
+	float: left;
+	margin-left: 10px;
+}
+/*rgbmethod -0-to255*/
+.color1{
+	height: 300px;
+	width: 100px;
+	background:rgb(123,250,123);
+	float: left;
+	margin-left: 10px;
+}
+.color2{
+	height: 300px;
+	width: 100px;
+	background:rgb(123,222,232);
+	margin-left: 10px;
+	float: left;
+}
+/*rgba a->0.1-1.0*/
+.color3{
+	height: 300px;
+	width: 100px;
+	background: rgba(12,321,251,0.3);
+	float: right;
+}
+/*hsl()*/
+/*h->0-360 0-120 120-240 240-360*/
+/*s->100%*/
+/*l->black-0%-50%-100%-white*/
+
+.hsl{
+	height: 300px;
+	width: 100px;
+	float:right;
+	background:hsl(360,100%,50%);
+	margin-right: 10px;
+}
+/*hlca*/
+.color_item{
+	height: 500px;
+	/*width: 1100px;*/
+	float: left;
+	background-image: url(ashish1.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.color_item2{
+	height: 100%;
+	width: 100%;
+	float: left;
+	background:hsla(160,100%,40%,0.3);
+}
+/*overflow consetf*/
+.overflow{
+	height: 200px;
+	width: 200px;
+	float: left;
+	background-color: red;
+	overflow: scroll;
+	overflow-y: scroll;
+		box-shadow: 15px 15px 15px #aaaaaa;
+}
+.overflow2{
+height: 200px;
+	width: 200px;
+	float: right;
+	background-color: red;
+	overflow: scroll;
+	overflow-y: hidden;
+	overflow-x: scroll;	
+	overflow-y: scroll;
+	margin-left: 10px;
+	border-left:  3px solid black;
+	box-shadow: 15px 15px 15px #aaaaaa; 
+}
+/*73*/
+.text_shadow{
+	margin-top: 100px;
+	text-align: center;
+	font-size: 100px;
+	color: red;
+	text-shadow: 10px 10px 10px  #888888;
+
+
+}
+.box_shadow{
+	height: 300px;
+	width: 300px;
+	float: left;
+	background-color: red;
+	margin-bottom:  90px;
+	margin-left:  90px;
+	box-shadow: 0px 0px 10px 10px pink inset,
+		0px 0px 10px 10px green inset,0px 0px 10px 20px yellow;
+}
+
+.box{
+	height: 300px;
+	width: 50%;
+	float: left;
+	/*background-color: green;*/
+	background-image: linear-gradient(to left,red ,blue,green);
+}
+.gradient_box2{
+	height: 300px;
+	width: 50%;
+	float: left;
+	background-color: red;
+	background-image: radial-gradient(red,green, blue)
+}
+.icons{
+	font-size: 80px;
+	color: red;
+	height: 150px;
+	width: 150px;
+}
+/*total prop81*/
+
+.display_box{
+	height: 200px;
+	width: 100%;
+	background-color: red;
+	display:inline;
+	display:inline;
+	visibility: hidden;
+	visibility: visible;
+	float: left;
+}
+.display_box1{
+	height: 200px;
+	width: 100%;
+	background-color: green;
+	float: left;
+
+}
+.table{display:table;
+width:100%;
+}
+.table_row{
+	display:table-row;
+}
+.table_col{
+	display: table-cell;
+}
+.html_list{
+	list-style-position: inside;
+	list-style-type: none;
+	list-style-image: url(https://icons8.com/icons/set/.html);
+	float: left;
+}
+
+.cursor_box{
+	height:400px;
+	width:400px;
+	background-color: red;
+	cursor:row-resize;
+	cursor: move;
+	float: left;
+}
+.filter_prop{
+	filter:blur(50px);
+	filter:brightness(12);
+}
+.position{
+	height: 200px;
+	width: 200px;
+	float: left;
+	background-color: red;
+	position:static;
+	position: relative;
+}
+.position1{
+
+	height: 200px;
+	width: 200px;
+	float: left;
+	background-color: green;
+	/*position:static;*/
+	/*position: relative;*/
+	position: absolute;
+	bottom: 5px;
+	right: 50px;
+	left: 30px;
+	top: 33px;
+		z-index: 001;
+	/*fixed*/
+	/*stiky*/
+}	
+.position3{
+		height: 200px;
+	width: 200px;
+	float: left;
+	background-color: red;
+	/*position:static;*/
+	/*position: relative;*/
+	position: absolute;
+	/*bottom: px;*/
+	top: 105px;
+	left: 120px;
+
+}
+
+.position2{
+		height: 200px;
+	width: 200px;
+	float: left;
+	background-color: blue;
+	position: fixed;
+	/*top: 70px;
+	left: 100px;*/
+	bottom: 60px;
+	right: 40px;
+}
+.main_menu{
+	height: 1000px;
+	width: 100%;
+	float: left;
+	background-color: yellow;
+}
+
+.main_menu1{
+	height: 100px;
+	width: 100%;
+	float: left;
+	background-color:black;
+	}
+
+.main_menu2{
+	height: 100px;
+	width: 100%;
+	float: left;
+	position: sticky;
+	top: 0px;
+
+	background-color: green;
+
+}
+
+.main-menu-box{
+	height: 800px;
+	width: 100%;
+	float: left;
+	background-image:linear-gradient(red,green,blue);
+}
+/*transform*/
+.rotate{
+	height: 300px;
+	width: 300px;
+	/*float: left;*/
+	background-color: red;
+}
+.rotate:hover{
+	transform:rotate(300deg);
+
+}
+
+
+.translet{
+	height: 300px;
+	width: 300px;
+	float: left;
+	background-color: green;
+	margin-top: 10px;
+}
+.translet:hover{
+	/*transform:rotate(300deg);*/
+	transform: translate(100px,200px);
+	transform: translateX(100px);
+	transform: translateY(200px);
+
+}
+.scale{
+	height: 300px;
+	width: 300px;
+	float: left;
+	background-color: yellow;
+	margin-top: 10px;
+}
+.scale:hover{
+	transform: scale(2.0,2.5)
+}
+
+
+.
+.scale1{
+	height: 300px;
+	width: 300px;
+	float: left;
+	background-color:;
+	overflow: hidden;
+	margin-top: 10px;
+}
+.scale1 img:hover{
+	transform: scale(2.0,2.0);
+}
+
+.skew{
+	height: 300px;
+	width: 300px;
+	float: left;
+	background-color:red;
+	/*overflow: hidden;*/
+	margin-top: 10px;
+}
+.skew:hover{
+	/*transform: scale(2.0,2.0);*/
+	transform: skew(20deg ,20deg);
+	transform: skewX(20deg);
+	transform: skewX(30deg);
+}
+
+/*transition*/
+.transition_box1{
+	height: 100px;
+	width: 100px;
+	float: left;
+	background:red;
+	transition-property: width;
+	transition-property: height;
+	transition-duration: 5s;
+	transition-delay: 3s;
+	transition-timing-function:ease;
+	transition-timing-function: ease-in;
+	transition-timing-function: ease-out;
+	transition-timing-function: step-end; 
+}
+}
+
+.transition_box1:hover{
+	/*width: 100%;*/
+	height: 300px;
+}
+
+.animation_box{
+	height: 400px;
+	width: 400px;
+	float: left;
+	background-color: yellow;
+	animation-name: demos;
+	animation-duration: 10s;
+}
+ .animation_box:hover{
+ 	background-color: black;
+ }
+@keyframes demo{
+	to{background-color: green}
+	from{background-color: orange}
+}
+@keyframes demos{
+
+	0%{background-color: silver}
+	10%{background-color: green}
+	50%{background-color: orange}
+	80%{background-color: pink}
+	100%{background-color: purple}
+
+	}
+
+.animation_area{
+	height: 550px;
+	width: 100%;
+	float: left;
+	background-color: yellow;
+}
+.ani_ball{
+	height: 50px;
+	width: 50px;
+	float: left;
+	background:black;
+	border-radius: 50px;
+	animation-name: ball;
+	animation-duration: 10s;
+	animation-iteration-count: 2;
+	position: relative;
+	/*animation-direction: alternate;*/
+	animation-direction: alternate-reverse;
+}
+@keyframes ball{
+	0%{top:0px;left:0px;}
+	10%{top:500px;left: 0px}
+	15%{top:500px;left:15%;}
+	25%{top:0px;left: 15%;}
+	30%{top:0px;left:30%;}
+	40%{top:500px;left:30%;}
+	45%{top:500px;left:45%;}
+	55%{top:0px;left:45%;}
+	60%{top:0px;left:60%;}
+	70%{top:500px;left:60%;}
+	75%{top:500px;left:75%;}
+}
+

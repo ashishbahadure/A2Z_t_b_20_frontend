@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.box{
+			height: 600px;
+			width:100%;
+			background-color: red;
+		}
+	</style>
+</head>
+<body>
+	<div class="box">
+		<h1 style="font-size: 80px">Hello Ashish</h1>
+		<h1 style="font-size: 60px;"id="gre">Good morning</h1>
+		<h1>Date:<span id="da"></span></h1>
+		<h1>Time<span id="time"></span></h1>
+	</div>
+	<script type="text/javascript">
+		var da=new Date();
+		var fulldate=da.getDate()+"/"+Number(da.getMonth()+1)+"/"+da.getFullYear();
+		document.getElementById('da').innerHTML=fulldate;
+		setInterval(fulltime,1000);
+		function fulltime(){
+			var da1=new Date();
+			var fulltime=da1.getHours()+":"+da1.getMinutes()+":"+da1.getSeconds();
+			document.getElementById('time').innerHTML=fulltime;
+		}
+		var dat=new Date();
+		var time=dat.getHours();
+		if (time>4 && time<=12) {
+			document.getElementsByClassName('box')[0].style='background:green';
+			document.getElementById('gre').innerHTML="Good Morning";
+		}
+		else if (time>12 && time<=16) {
+			document.getElementsByClassName('box')[0].style='background:yellow';
+			document.getElementById('gre').innerHTML="Good afternon";
+
+		}
+		else if (time>16 && time<=19) {
+			document.getElementsByClassName('box')[0].style='background:deeppink';
+			document.getElementById('gre').innerHTML="Good evening";
+
+		}
+		else{
+			document.getElementsByClassName('box')[0].style='background:skyblue';
+			document.getElementById('gre').innerHTML="Good night";
+
+		}
+	</script>
+</body>
+</html>

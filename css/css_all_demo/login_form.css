@@ -1,0 +1,70 @@
+div{
+	height: 500px;
+	width: 100%;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	padding: 50px;
+	margin-bottom: 30px;
+
+}
+.form1{
+	background-color: skyblue;
+	background-image: url(ashish1.jpg);
+
+
+}
+.form2{
+	background-color: hotpink;
+	background-image: url(ashish2.jpg);
+}
+.form3{
+	background-color: orchid;
+	background-image: url(https://i.pinimg.com/originals/41/49/eb/4149eb1aa222c2b74a1ed57ccb832fc3.jpg);
+}
+ form{
+	padding: 10px;
+	height: 290px;
+	width: 270px;
+	margin: 100px 500px 100px;
+	background-color: white;
+	border-radius: 20px;
+	font-size: 20px;
+
+}
+ h1{
+	text-align: center;
+
+}
+input{
+	text-align: center;
+}
+.submit{
+	background-color: dodgerblue;
+	font-size: 15px;
+	padding: 10px 15px;
+	font-weight: bold;
+	color: white;
+	border-radius: 10px;
+}
+table{
+	border-collapse: collapse;
+	padding: 50px;
+	height: 200px;
+	width: 600px;
+	margin: 100px 250px 10px;
+	background-color: yellow;
+	border-color:3px  red;
+	font-size: 20px;
+}
+td{
+	width: 10px;
+	height: 10px;
+}
+.ashish{
+	height: 400px;
+}
+.a{
+	text-align: center;
+	margin-left:  50px;
+	font-color:white;
+}

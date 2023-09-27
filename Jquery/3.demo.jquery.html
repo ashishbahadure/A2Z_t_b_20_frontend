@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+
+</head>
+<body>
+	<input type="text" class="inpbox">
+	<input type="text" class="inpbox">
+	<input type="text" class="inpbox">
+	<button id="btn">click</button>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#btn").click(function(){
+				// var i1=$(this).val();
+				// console.log(i1);
+				$(".inpbox").hide();
+				$(".inpbox").toggle();
+			})
+		})
+	</script>
+</body>
+</html>

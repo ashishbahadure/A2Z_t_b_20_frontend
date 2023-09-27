@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body id="data">
+		<input type="number"id="num1" name=""placeholder="num1"><br><br>
+		<input type="number"id="num2" name=""placeholder="num2"><br><br>
+		<button onclick="add(num1.value,num2.value)">+</button>
+		<button onclick="sub(num1.value,num2.value)">-</button>
+		<button onclick="multi(num1.value,num2.value)">*</button><br><br>
+		<input type="number"id="total" name=""placeholder="total"readonly><br><br>
+	<script type="text/javascript">
+		function add(a,b) {
+			var c=Number(a)+Number(b);
+			document.getElementById('total').value=c;
+		}
+		function sub(a,b){
+			var c=Number(a)-Number(b);
+			document.getElementById('total').value=c;
+		}
+		function multi(a,b){
+			var c=Number(a)*Number(b);
+			document.getElementById('total').value=c;
+		}
+	document.write("<br>")	
+	document.write("<br>")	
+	document.write("<br> onclick event<br><br>")
+
+	</script>
+
+	<button id="data"onclick="fun1()">whataspp</button>
+	<button onclick="fun2()">youtube</button>
+	<button onclick="fun3()">facebook</button>
+	<button onclick="fun4()">telegram</button>
+<script type="text/javascript">
+	function fun1(){
+		document.getElementById('data').style.background="green";
+	}
+	function fun2(){
+		document.getElementById('data').style.background="red";
+	}
+	function fun3(){
+		document.getElementById('data').style.background="blue"
+	}
+	function fun4(){
+		document.getElementById('data').style.background="skyblue"
+	}
+	document.write("<br>")	
+	document.write("<br>")	
+	document.write("<br> dblclick event<br><br>")
+
+</script>
+		<button id="ashish"ondblclick="function1()"><h1>ashish</h1></button>
+		<button id="ash"ondblclick="function2()"><h1>ashish</h1></button>
+		<button id="ashi"ondblclick="function3()"><h1>ashish</h1></button>
+	<script type="text/javascript">
+		function function1(){
+			document.getElementById('ashish').style.color="red";
+			document.getElementById('ashish').style.background="skyblue";
+			document.getElementById('ashish').style.height="300px";
+
+		}
+		function function2(){
+			document.getElementById('ash').style.color="orange";
+			document.getElementById('ash').style.background="deeppink";
+			document.getElementById('ash').style.height="200px";
+
+		}
+		function function3(){
+			document.getElementById('ashi').style.color="green";
+			document.getElementById('ashi').style.background="purple";
+			document.getElementById('ashi').style.height="100px";
+		}
+	document.write("<br>")	
+	document.write("<br>")	
+	document.write("<br> oncontextmenu event<br><br>")
+
+	</script>
+	<button id="context"oncontextmenu="ash()">oncontextmenu</button>
+	<script type="text/javascript">
+		function ash(){
+			document.getElementById('context').style.width="100%";
+			document.getElementById('context').style.height="100px";
+			document.getElementById('context').style.background="blue";
+		}
+		document.write("<br>")	
+	document.write("<br>")	
+	document.write("<br> onmouseover and out event<br><br>")
+
+	</script>
+	<button id="ashsh"onmouseover="ashish()"onmouseout="ashish2()">ashish bahadure</button>
+	<script type="text/javascript">
+		function ashish(){
+			document.getElementById('ashsh').style.background="yellow";
+			document.getElementById('ashsh').style.height="100px";
+		}
+		function ashish2(){
+			document.getElementById('ashsh').style.background="skyblue";
+			document.getElementById('ashsh').style.height="50px";
+		}
+	</script>
+</body>
+</html>

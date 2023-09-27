@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<button type="button"onclick="wel()">click wel</button>
+	<button type="button"onclick="hello()">click hello</button>
+	<button type="button"onclick="name_print()">print name</button>
+	<button type="button"onclick="addition(10,1000)">addition two</button>
+
+	<script type="text/javascript">
+		function fun_name(){
+
+		}
+		function hello(){
+			alert("hello")
+		}
+		function wel(){
+			alert("welcome")
+		}
+		// wel();
+		// hello();
+		document.write("<br>");
+		document.write("<br>");
+		document.write("*****************************************************");
+		document.write("<br>");
+		document.write("<br>");
+		// paramitrse function
+		function name_print(fname,lname){
+			alert("welcome"+fname+""+lname);
+		}
+		// name_print("ram","sham");
+		function addition(a,b){
+			var c=Number(a)+Number(b);
+			alert(c);
+		}
+		addition(10,20);
+		// function argument (paramenters)
+		function abc(a,b,c){
+			// var c=a+""+b+""+c;
+			var c=arguments[0]+""+arguments[1]+""+arguments[2];
+			document.write(c);
+
+		}
+		abc("a","b","c");
+		document.write("<br>");
+		document.write("<br>");
+		document.write("*****************************************************");
+		document.write("<br>");
+		document.write("<br>");
+
+		// return Keyword
+		function name(fname,lname){
+			var name1=fname+" "+lname;
+			return name1;
+
+		}
+		var n=name("ashish","bahadure");
+		document.write("welcome "+n);
+		document.write("<br>");
+		document.write("<br>");
+		document.write("*****************************************************");
+		document.write("<br>");
+		document.write("<br>");
+		
+		var fun=function name(n){
+			var g="welcome "+n;
+			return g;
+		}
+		document.write(fun("ashish"));
+
+
+		document.write("<br>");
+		document.write("<br>");
+		document.write("*****************************************************");
+		document.write("<br>");
+		document.write("<br>");
+
+		var ab=function(n){
+			var c="welcome "+n;
+			return c;
+		}
+		var v=ab("ashish");
+		document.write(v);
+
+
+		document.write("<br>");
+		document.write("<br>");
+		document.write("*****************************************************");
+		document.write("<br>");
+		document.write("<br>");
+
+		var nam=(n)=>{
+			document.write("welcome"+n);
+		}
+		nam("js");
+
+		document.write("<br>");
+		document.write("<br>");
+		document.write("*****************************************************");
+		document.write("<br>");
+		document.write("<br>");
+		function my_intro(){
+			document.write("my name is ashish");
+			document.write("<br>i am a fullstack devloper");
+
+		};
+		my_intro();
+	</script>
+</body>
+</html>

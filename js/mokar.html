@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		body{
+			background-color: rgb(202,181,181);
+		}
+		.box{
+			height:300px;
+			width: 300px;
+			float: left;
+			position: relative;
+			background-color: orchid;
+		}
+		.box-overlay{
+			height: auto;
+			width: 100%;
+			bottom: 0px;
+			background-image: linear-gradient(hsla(0,0%,0%,0),hsla(0,0%,0%,0.6),hsla(0,0%,0%,0.9));
+			display: none;
+			text-align: center;
+			position: absolute;
+
+		}
+		img{
+			height: 100%;
+			width: 100%;
+			position: absolute; 
+		}
+		.box:hover .box-overlay {
+			display: inline;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		
+		<div class="overlay">
+                   <div class="content">
+                            <h3>ashish</h3>
+                            <p>this is ashish</p>
+                        </div>
+                    </div>
+	</div>
+	<div class="box">
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdrB2OUSpahFjFIzSESRnqTOs3RrX6xsf6ecC1cY1s&s">
+		<div class="box-overlay">
+			<h1>Avinash mane</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do</p>
+		</div>
+	</div>
+</body>
+</html>

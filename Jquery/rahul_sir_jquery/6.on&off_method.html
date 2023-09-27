@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+	<script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+ <style>
+    .box{
+        height: 400px;
+        width: 400px;
+        background-color: red;
+    }
+ </style>
+</head>
+<body>
+    <div class="box"></div>
+    <button id="off1">off</button>
+    <script>
+        
+        $(document).ready(function(){
+            $('#off1').click(function(){
+                $('.box').off('mouseover mouseout');
+            })
+            $('.box').on({
+                'click':function(){
+                    $('.box').css('background','blue');
+                },
+                'mouseover':function(){
+                    $('.box').css('background','orange');
+                },
+                'mouseout':function(){
+                    $('.box').css('background','green');
+                }
+            })
+        })
+    </script>
+</body>
+</html>

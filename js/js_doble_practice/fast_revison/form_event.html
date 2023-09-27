@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<form>
+	<input type="text" name="" onfocus="focus1()"onblur="blur1()" placeholder="Name" id="name"><br><br>
+	<input type="text" onblur="blur2()" name=""onfocus="focus2()"placeholder="email" id="email">
+	<script type="text/javascript">
+		function focus1(){
+			document.getElementById('name').style.background="yellow";
+		}
+		function focus2(){
+			document.getElementById("email").style.background="pink";
+		}
+		function blur1(){
+			document.getElementById('name').style.background="red";
+		}
+		function blur2(){
+			document.getElementById('email').style.background="red";
+		}
+	</script>
+</form>
+</body>
+</html>

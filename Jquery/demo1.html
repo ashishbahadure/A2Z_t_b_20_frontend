@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+
+</head>
+<body>
+<!-- <table>
+	<tr>
+		<th>product name</th>
+		<th>product qty</th>
+		<th>product rate</th>
+		<th>product total</th>
+		<th></th>
+	</tr>
+	<tr>
+		<td>
+			<input type="text"class="product_name">
+		</td>
+		<td>
+			<input type="text" class="getprice product_qty">
+		</td>
+		<td>
+			<input type="text" class="getprice product_rate">
+		</td>
+		<td>
+			<input type="text" class="product_total" readonly="">
+		</td>
+		<td><button>+</button></td>
+	</tr>
+</table>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$(".getprice").keyup(function(){
+			var pq=$(".product_qty");
+			var pr=$(".product_rate");
+			var pt=$(".product_total");
+			for(i=0;i<pq.length;i++)
+			{
+				var ptotal=pq[i].value*pr[i].value;
+				pt[i].value=ptotal;
+			}
+		})
+	})
+</script> -->
+
+
+<table width="50%" align="center" border="1"mytable="">
+	<tr>
+		<th>product name</th>
+		<th>product qty</th>
+		<th>product rate</th>
+		<th>product total</th>
+		<th></th>
+	</tr>
+	<tr>
+		<td>
+			<input type="text" class="product_name">
+		</td>
+		<td>
+			<input type="text" class="product_qty"onkeyup="getprice()">
+		</td>
+		<td>
+			<input type="text" class="product_rate"onkeyup="getprice()">
+		</td>
+		<td>
+			<input type="text" class="product_total"readonly>
+		</td>
+		<td><button id="addrow">+</button></td>
+	</tr>
+	
+</table>
+<script type="text/javascript">
+	function getprice()
+	{
+		var pq=$(".product_qty");
+		var pr=$(".product_rate");
+		var pt=$(".product_total");
+
+		for(i=0;i<pq.length;i++)
+		{
+			var ptotal=pq[i].value*pr[i].value;
+		}
+	}
+	$("#addrow").click(function(){
+		var row=`
+		<tr>
+		<td>
+			<input type="text" class="product_name">
+		</td>
+		<td>
+			<input type="text" class="product_qty"onkeyup="getprice()">
+		</td>
+		<td>
+			<input type="text" class="product_rate"onkeyup="getprice()">
+		</td>
+		<td>
+			<input type="text" class="product_total"readonly>
+		</td>
+		<td><button onclick="removeRow(this)"style="bakcground-color:red;">X</button></td>
+	</tr>
+			`;
+			$("#mytable").append(row);
+	})
+	function removeRow(elmt)
+	{
+		elmt.closest('tr').remove();
+	}
+</script>
+</body>
+</html>

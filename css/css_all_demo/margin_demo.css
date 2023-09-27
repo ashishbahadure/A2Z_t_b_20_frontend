@@ -1,0 +1,50 @@
+.padding{
+	height: 500px;
+	width: 1000px;
+	background-color: yellow;
+	border: 3px solid black;
+	margin: 150px;
+
+}
+.pad{
+	height: 200px;
+	width: 450px;
+	background-color: red;
+	border: 3px solid black;
+	float: left;
+	margin: 10px;
+	padding: 10px;
+
+}
+.pa{
+	height: 150px;
+	width: 410px;
+	background-color: pink;
+	border: 3px solid black;
+	float: left;
+	margin: 10px;
+	padding:10px;
+}
+.p{
+	height: 100px;
+	width: 350px;
+	background-color:;
+	border: 3px solid black;
+	float: left;
+	margin: 26px;
+}
+
+.img{
+	height:100px;
+	width: 100%;
+
+}
+.table{
+	border: 3px solid black;
+	height: 100px;
+	width: 350px;
+	border-collapse: collapse;
+}
+.table td{
+	border: 5px solid red;
+}

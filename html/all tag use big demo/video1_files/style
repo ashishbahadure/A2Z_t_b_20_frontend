@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class program1{
+    public static void main(String [] args)
+    {
+        int l,b,perimeter,area;
+        Scanner s= new Scanner(System.in);
+        System.out.print("enter length of rectangle:");
+        l =s.nextInt();
+        System.out.print("enter breadtth of reactangle:");
+        b =s.nextInt();
+        perimeter =2*(l+b);
+        System.out.println("perimeterr of reactangle:"+perimeter);
+        area = l*b;
+        System.out.println("area of rectangle:"+area);
+    }
+}

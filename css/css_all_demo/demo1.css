@@ -1,0 +1,150 @@
+.u{
+	height: 120px;
+	width: 10%;
+	background-color: yellow;
+	float:left;
+}
+.t{
+	height: 120px;
+	width: 10%;
+	background-color: yellow;
+	float:left;
+	border-top: 5px solid black;
+	border-right: 5px solid black;
+	box-sizing: border-box;
+	
+
+}
+.h{
+	height: 120px;
+	width: 10%;
+	background-color: yellow;
+	float:left;
+	border-right: 5px solid black;
+	box-sizing: border-box;
+	
+
+}
+.o{
+	height: 120px;
+	width: 10%;
+	background-color: yellow;
+	float:left;
+	border-bottom: 5px solid black;
+	
+	box-sizing: border-box;
+	
+
+}
+.l{
+	height: 120px;
+	width: 10%;
+	background-color: yellow;
+	float:left;
+	border-bottom: 5px solid black;
+	
+	box-sizing: border-box;
+	
+
+}
+.p{
+	height: 120px;
+	width: 10%;
+	background-color: yellow;
+	float:left;
+	border-top: 5px solid black;
+	border-left: 5px solid black;
+	box-sizing: border-box;}
+
+	.kk{
+	height: 120px;
+	width: 10%;
+	background-color: yellow;
+	float:left;
+	border-bottom: 5px solid black;
+	box-sizing: border-box;}
+
+
+	.nn{
+	height: 120px;
+	width: 10%;
+	background-color: yellow;
+	float:left;
+	border-right: 5px solid black;
+	box-sizing: border-box;}
+	
+
+
+.k{
+	height: 20px;
+	width: 100%;
+	background-color: yellow;
+	float: left;
+
+
+}
+.n{
+	height: 200px;
+	width: 200px;
+	float: left;
+	display: block;
+	margin-left: 50px;
+	margin-top: 30px;
+	border: 10px solid #ae0af5;
+
+
+
+
+	
+
+}
+.gh{
+	height: 200px;
+	width: 200px;
+	float: left;
+	border-top: 5px solid black;
+	border-left: 5px solid black;
+	box-sizing: border-box;
+	
+	
+
+}
+.qr{
+	height: 200px;
+	width: 200px;
+	float: left;
+	border-top: 5px solid black;
+	border-left: 5px solid black;
+	box-sizing: border-box;
+	
+	
+}
+.jk{
+	height: 200px;
+	width: 200px;
+	float: left;
+	border-top: 5px solid black;
+	border-left: 5px solid black;
+	box-sizing: border-box;
+	
+	}
+
+	.dfg{
+		height: 300px;
+		width: 25%;
+		background-color: yellow;
+		float: left;
+	}
+	.qw{
+		height: 120px;
+	width: 10%;
+	background-color: yellow;
+	float:left;
+	
+	border-bottom: 5px solid black;
+	box-sizing: border-box;
+	}
+	.yu{
+		height: 115px;
+		width: 100%;
+	}

@@ -1,0 +1,132 @@
+*{margin:0px;padding: 0px;}
+.background{
+	height: 680px;
+	width: 100%;
+	background-color: white;
+	position: fixed;
+}
+.menubar{
+	height: 90px;
+	width: 100%;
+	background-color: ;
+}
+.input{
+	height: 100px;
+	width: 380px;
+	/*background-color: green;*/
+}
+ .style{  height: 100px;
+ 	width: 200px;
+ 	float: left;
+ 	background-color: ;
+ 	float: left;
+}
+.list{
+	height: 100px;
+	width: 390px;
+	/*background-color: green;*/
+	display:inline-block;
+	float: left;
+	margin-left: 20px;
+}
+
+
+.list ul li{
+	display: inline-block;
+	font-size: 30px;
+	font-family: bold;
+	/*word-spacing: 60px;*/
+	margin-left: 20px;
+	margin-top: 20px;
+
+}
+.search{
+	height: 40px;
+	width: 370px;
+	background-color:white;
+	float: left;
+	margin-top: 20px;
+	border-radius: 20px;
+	margin-left:-10px;
+	box-shadow: 0px 0px 5px 0px black
+
+}
+.icon{
+	height: 30px;
+	width: 30px;
+	color: white;
+	font-size:10px;
+	background-color: blue;
+	border-radius: 100px;
+	/*margin-top: 10px;	*/
+	text-align: center;
+	padding: 5px;
+	margin-top: 0px;
+	margin-left: 4px;
+	position: absolute;
+	right: 310px;
+
+}
+.input  i{
+	height: 30px;
+	width: 30px;
+	color: white;
+	font-size:30px;
+	background-color: blue;
+	border-radius: 100px;
+	/*margin-top: 10px;*/
+	text-align: center;
+}
+.login{
+	height: 100px;
+	width: 279px;
+	/*background-color: blue;*/
+	float: left;
+}
+.form{
+	height: 490px;
+	width: 500px;
+	/*background-color: red;*/
+	position: absolute;
+	right: 100px;
+	top: 110px;
+
+	box-shadow: 0px 0px 5px 0px black
+	/*margin-left:20px;*/
+
+}
+
+.form1{
+	height: 470px;
+	width: 500px;
+	/*background-color: aqua;*/
+	position: absolute;
+	right: 600px;
+	top: 160px;
+	box-shadow: 0px 0px 15px 0px black;
+	/*line-height:30px;*/
+}
+.form1 img{
+	height: 200px;
+	width: 230px;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+.underdiv{
+
+	position: absolute;
+	top: 30px;
+	left: 10px;
+	line-height: 40px;
+	/*bottom: 20px;*/
+}
+.underdiv span{
+	font-size: 23px;
+	/*margin-top: -30px;*/
+	line-height: 18px;
+	/*position: absolute;
+	top: 20px;
+*/
+	/*bottom: 20px;*/
+}

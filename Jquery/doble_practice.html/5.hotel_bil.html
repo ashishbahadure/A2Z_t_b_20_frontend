@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+
+</head>
+<body>
+    <table width="50%" align="center" border="1" id="mytable">
+        <tr>
+            <th>product name</th>
+            <th>product qty</th>
+            <th>product rate</th>
+            <th>product total</th>
+            <th>addrow</th>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" class="product_name" id="">
+            </td>
+            <td>
+                <input type="text" class=" product_qty" id="" onkeyup="getprice()">
+            </td>
+            <td>
+                <input type="text" class=" product_rate" id="" onkeyup="getprice()">
+            </td>
+            <td>
+                <input type="text" class="product_total" readonly>
+            </td>
+            <td><button id="addrow">+</button></td>
+        </tr>
+    </table>  
+    <script>
+        function getprice(){
+                var pq=$(".product_qty");
+                var pr=$(".product_rate");
+                var pt=$(".product_total");
+
+                for(i=0;i<pq.length;i++)
+                {
+                    var ptotal=pq[i].value*pr[i].value;
+                    pt[i].value=ptotal;
+                }
+            };
+        $(document).ready(function(){
+            $("#addrow").click(function(){
+                var row=` <tr>
+            <td>
+                <input type="text" class="product_name" id="">
+            </td>
+            <td>
+                <input type="text" class=" product_qty" id="" onkeyup="getprice()">
+            </td>
+            <td>
+                <input type="text" class=" product_rate" id="" onkeyup="getprice()">
+            </td>
+            <td>
+                <input type="text" class="product_total" readonly>
+            </td>
+            <td><button onclick="removeRow(this)" style="background:red">X</button></td>
+        </tr>`
+        $("#mytable").append(row);
+            })
+        });
+        function removeRow(elmt){
+            elmt.closest('tr').remove();
+        }
+    </script>
+</body>
+</html>

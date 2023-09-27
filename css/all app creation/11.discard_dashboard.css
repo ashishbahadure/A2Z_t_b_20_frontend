@@ -1,0 +1,92 @@
+*{margin:0px;}
+.bg{
+	height:650px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	position: fixed;
+	background-image: url(https://mcdn.wallpapersafari.com/medium/45/35/Zzlw8p.jpg);
+}
+.first{
+	height: 60px;
+	width: 100%;
+	background-color: white;
+	/*margin-left: 40px;*/
+}
+.first img{
+	/*margin-left: 160px;*/
+}
+.first img{
+	height: 30px;
+	width: 30px;
+}
+.second{
+	height: 60px;
+	width: 100%;
+	/*background-color:red;*/
+}
+.second img{
+	height: 70px;
+	width: 120px;
+	margin-left: 100px;
+	float: left;
+	margin-right: 50px;
+	margin-top: 10px;
+	/*box-shadow: 0px 0px 10px 10px white;*/
+}
+.second ul li{
+	display: inline-block;
+	color: white;
+	margin-left: 30px;
+	font-size: 25px;
+	float: left;
+	margin-top: 20px;
+}
+.button{
+	height:40px;
+	width: 70px;
+	border-radius: 20px;
+	border: none;
+	margin-top: 10px;
+	margin-left: 120px;
+	color:blue;
+}
+.text h1{
+	color: deeppink;
+	position: absolute;
+	top: 330px;
+
+	left: 300px;
+	font-size: 80px;
+
+	text-shadow: 0px 0px 50px 10px white;
+}
+
+.text1{
+	color: white;
+	position: absolute;
+	top: 440px;
+	left: 300px;
+	line-height: 25px;
+	text-align: center;
+	font-size: 22px;
+}
+.buttonn{
+	height: 50px;
+	width: 200px;
+	border-radius: 20px;
+	position: absolute;
+	top: 550px;
+	left: 400px;
+	font-size: 15px;
+}
+.buttonn1{
+	height: 50px;
+	width: 200px;
+	border-radius: 20px;
+	position: absolute;
+	top: 550px;
+	left: 740px;
+	color: white;
+	background-color: black;
+}

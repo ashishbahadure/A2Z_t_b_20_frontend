@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<!-- <input type="text"onkeyup="keyEvent(event)" name="">
+	<script type="text/javascript">
+		function  keyEvent(e) {
+			console.log(e.key);
+			// document.write(e.key);
+		}
+	</script>
+ -->	<input type="text" name=""id="img_url">
+	<button onclick="applyimage()">apply image</button>
+	<img src="https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823__340.jpg">
+	<script type="text/javascript"id="imgtag">
+		function applyimage(){
+			var iu=document.getElementById('img_url');
+			var it=document.getElementById('imgtag');
+			it.src=iu.value;
+		}
+		
+		// console.error()
+		// console.table()
+		// console.warn()
+		// console.log()
+	</script>
+
+</body>
+</html>

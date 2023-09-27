@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="abcd.html" onsubmit="return validateform()">
+        <b>enter student name</b>
+        <input type="text" name="" id="student_name" onkeyup="validate_student_name()" style="outline: none;">
+        <span id="error"></span><br><br>
+        <b>enter student mobile</b>
+        <input type="number" name="" id="student_mobile" onkeyup="validate_student_mobile()" style="outline: none;"><br><br>
+        <button>SAVE STUDENT</button>
+    </form>
+    <script>
+        function validate_student_name(){
+            var spattern=/^[a-zA-z]{2,30}$/;
+            var sn=document.getElementById("student_name");
+            if(sn.value.match(spattern))
+            {
+                sn.style.border="2px solid green"
+                document.getElementById('error').innerHTML=" valid"
+                return true;
+            }
+            else{
+                sn.style.border="2px solid red";
+                document.getElementById('error').innerHTML="invalid name "
+                return false;
+            }
+        }
+        function validate_student_mobile(){
+            var mpattern=/^[0-9]{10}$/;
+            var mob=document.getElementById("student_mobile");
+            if(mob.value.match(mpattern))
+            {
+                mob.style.border="2px solid green";
+                return true;
+            }
+            else{
+                mob.style.border="2px solid red";
+                return false;
+            }
+        }
+        function validateform(){
+            if(validate_student_name() && validate_student_mobile())
+            return true;
+            else
+            return false;
+        }
+    </script>
+</body>
+</html>

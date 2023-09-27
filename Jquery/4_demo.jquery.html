@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+
+</head>
+<body>
+	<input type="text" id="username">
+	<input type="text" id="usermobile">
+	<input type="text" id="useremail">
+	<button id="add_data_btn">add</button>
+	<table id="my_table" border="1">
+		<tr>
+			<th>user name</th>
+			<th>user mobile</th>
+			<th>user email</th>
+		</tr>
+	</table>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#add_data_btn").click(function){
+				var uname=$("#username").val();
+				var umobile=$("#usermobile").val();
+				var uemail=$("#useremail").val();
+				var tr=`<tr>
+						<td>${uname}</td>
+						<td>${umobile}</td>
+						<td>${uemail}</td>
+						</tr>`;
+				$("#my_table").append(tr);
+			}
+		})
+	</script>
+</body>
+</html>

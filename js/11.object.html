@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+	var per={"name":"ashish","address":"ahemdnagar","age":21}
+	// print
+	document.write(per.name);
+	document.write("<br>"+per.address);
+	document.write("<br>"+per.age);
+	// cunstroctor 
+	var info=new Object();
+	info.name="ram";
+	info.mobile=91123344;
+	info.gmail="ashish@gmail.com";
+	document.write("<br><br>"+info.name);
+	document.write("<br>"+info.mobile);
+	document.write("<br>"+info.gmail);
+	document.write("<br>");
+
+	document.write("<br>");
+	document.write("<br> ");
+	document.write("<br> ");
+
+	// object in method
+	var a={
+		"fname":"ashish",
+		"lname":"bahadure",
+		"name":function(){
+			return this.fname+" "+this.lname;
+		}
+	}
+	document.write(a.name());
+	document.write("<br>");
+	document.write("<br>");
+	document.write("<br>");
+	document.write("<br>");
+	var nm=new Object()
+	nm.fnm="a2z";
+	nm.lnm="infotech";
+	nm.name=function(){
+		return this.fnm+" "+this.lnm;
+	}
+	document.write(nm.name());
+
+	document.write("<br>");
+	document.write("<br>");
+	document.write("<br>");
+	var n=function(a,b){
+		var c=function (n,m){
+			return n+m
+		}
+		return c(a,b)
+	}
+	document.write(n(9,20));
+
+	document.write("<br>");
+	document.write("<br>");
+
+
+	var data={
+		"name":"ashish",
+		"email":"ashish@123",
+		"mobile":1234321,
+		"address":"nagar",
+	}
+	document.write(data.name);
+	for(var key in data){
+		document.write("<br>"+key);
+		document.write(":"+data[key]);
+	}
+	document.write("<br>");
+	document.write("<br>");
+		// nested format
+		var data={
+			"name":"ram",
+			"email":"infotez@543",
+			"subject":{
+				"sub1":"HTML",
+				"sub2":"css",
+				"sub3":"js",
+			},
+			"address":"nagar",
+		}
+		document.write(data.subject.sub1);
+		for(var key in data.subject){
+			document.write(" <br>"+key);
+			document.write(":"+data.subject[key]);
+		}
+
+</script>
+</body>
+</html>

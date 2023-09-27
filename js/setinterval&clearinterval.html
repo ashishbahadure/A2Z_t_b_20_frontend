@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body><!-- 
+	<button id="mybtn">stop</button>
+	<div id="mydiv"></div>
+	<script type="text/javascript">
+		function runtext() {
+	document.getElementById('mydiv').textContent +=" hello ashish";			
+		}
+		var id=setInterval(runtext,2000);
+		function cleartime(){
+			clearInterval(id)
+		}
+		document.getElementById("mybtn").addEventListener("click",cleartime);
+	</script> -->
+	<!-- <style type="text/css">
+		#test{
+			height: 150px;
+			width: 150px;
+			background-color: red;
+		}
+	</style>
+	<div id="test"></div>
+	<script type="text/javascript">
+		var a=0;
+		var id=setInterval(ashish,1000);
+		function ashish(){
+			a=a+10;
+			if (a==600) {
+				clearInterval(id)
+			}
+			else{
+				var ab=document.getElementById('test');
+				ab.style.width=a+"px";
+			}
+		}
+	</script> -->
+	<!-- <img id="test" src="https://i.pinimg.com/originals/24/ae/8d/24ae8def288851503cf68340df174963.gif"style="height: 200px;width: 200px;">
+	<script type="text/javascript">
+		var a=0;
+		var id=setInterval(anim,500)
+		function anim(){
+			a=a+10;
+			if (a==700) {
+				clearInterval(id)
+			}
+			else{
+				var target=document.getElementById('test');
+				target.style.marginLeft=a+"px";
+			}
+		}
+	</script> -->
+	<script type="text/javascript">
+		var a=0;
+		var id=setInterval(anim,1000);
+		function anim(){
+			var b=1800;
+			a=a+b;
+			if (a>b*10) {
+				clearInterval(id);
+			}
+			else{
+				document.write("<br>"+a);
+			}
+		}
+	</script>
+</body>
+</html>

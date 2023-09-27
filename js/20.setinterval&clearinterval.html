@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.box{
+			height: 100px;
+			width: 100px;
+			float: left;
+			background-color: red;
+		}
+	</style>
+</head>
+<body>
+	 <!-- <div class="box"> <img src="https://i.gifer.com/4NiS.gif"style="height: 300px;width: 300px;"> </div>
+	<button onclick="setinterval()"style="float:left;clear:left;">start</button>
+	<button onclick="clearinterval()"style="float:left;">stop</button>
+	<script type="text/javascript">
+		var a=0;
+		var id="";
+		function setinterval() {
+			id=setInterval(data,1000)
+		}
+		function clearinterval(){
+			clearInterval(id);
+		}
+		function data(){
+			a+=50;
+			document.getElementsByClassName('box')[0].style.marginLeft=a+"px";
+		}
+
+	</script> --> 
+	<!-- <script type="text/javascript">
+		var a=0;
+		var id=setInterval(anim,1000);
+		function anim(){
+		var b=20;
+		 a=a+b;
+		 if (a>b*10) {
+		 	clearInterval(id);
+		 	// break;
+		 }
+		 else{
+			document.write("<br>"+a);
+
+		 }
+
+		 
+
+			// console.log(a);
+		}
+	</script>
+ -->
+
+	
+	 <!-- <img id="test" src="https://i.pinimg.com/originals/24/ae/8d/24ae8def288851503cf68340df174963.gif"style="height: 200px;width: 200px;">
+	<script type="text/javascript">
+		var a=0;
+
+		var id=setInterval(anim,1000)
+		function anim(){
+			a=a+10;
+			if (a==100) {
+				clearInterval(id)
+			}
+			else{
+				var target=document.getElementById('test');
+				target.style.marginLeft=a+'px';
+			}
+		}
+	</script> 
+ -->
+
+
+
+<!-- 
+	<style type="text/css">
+		#test{
+			width: 150px;
+			height: 150px;
+			background-color: red;
+		}
+	</style>
+	<div id="test"></div>
+	<script type="text/javascript">
+		var a=0;
+		var id=setInterval(ashish,500);
+		function ashish(){
+			a=a+10;
+			if (a==600) {
+				clearInterval(id)
+			}
+			else{
+				var ab=document.getElementById('test');
+				ab.style.width=a+"px";
+			}
+		}
+	</script>
+
+
+ -->
+
+
+	<button id="mybtn">stop</button>
+	<div id="mydiv"></div>
+
+	<script type="text/javascript">
+		function runtext(){
+			document.getElementById("mydiv").textContent +=" hello ashish";
+		}
+		var id=setInterval(runtext,2000);
+			function clertime(){
+				clearInterval(id)
+			}
+			document.getElementById("mybtn").addEventListener("click",clertime);
+	</script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<form action="9.function_example.html"onsubmit="return confirm('are you sure')">
+	<input type="text" name=""placeholder="Name"id="name"onfocus="foucus1()"onblur="blur1()"onselect="select1('name')"><br><br>
+
+	<input type="text" name=""placeholder="Name"id="Email"onfocus="foucus2()"onblur="blur2()"onselect="select2('Email')"><br><br>
+
+	<input type="text" name=""placeholder="Name"id="mobile"onfocus="foucus3()"onblur="blur3()"onselect="select3('mobile')"><br><br>
+	<select onchange="change1(this.value)"id="sele">
+	<option>choose</option>
+	<option>data1</option>
+	<option>data2</option>
+	<option>data3</option>
+</select>
+<button>submit</button>
+	<script type="text/javascript">
+		function foucus1() {
+			document.getElementById('name').style.background="yellow";
+		}
+		function foucus2(){
+			document.getElementById("Email").style.background="yellow";
+		}
+		function foucus3(){
+			document.getElementById("mobile").style.background="yellow";
+		}
+		function blur1(){
+			document.getElementById("name").style.background="pink";
+		}
+		function blur2(){
+			document.getElementById("Email").style.background="pink";
+		}
+		function blur3(){
+			document.getElementById("mobile").style.background="pink"
+		}
+		function select1(){
+			document.getElementById("name").style.background="red";
+		}
+		function change1(){
+			document.getElementById('sele').style.background="orange";
+		}
+	</script>
+	<br><br><br>
+	<input type="text" name=""placeholder="Name"id="name"onfocus="foucus1()"onblur="blur1()"onselect="select1('name')"><br><br>
+
+	<input type="text" name=""placeholder="Name"id="Email"onfocus="foucus2()"onblur="blur2()"onselect="select1('Email')"><br><br>
+
+	<input type="text" name=""placeholder="Name"id="mobile"onfocus="foucus3()"onblur="blur3()"onselect="select1('mobile')"><br><br>
+</form>
+<select onchange="change1()"id="sele">
+	<option>choose</option>
+	<option>data1</option>
+	<option>data2</option>
+	<option>data3</option>
+</select>
+</body>
+</html>

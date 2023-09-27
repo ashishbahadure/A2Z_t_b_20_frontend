@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+
+</head>
+<body>
+	<a href="https://google.com" id="my_a_tag">OPEN</a>
+	<button id="tofacebook">CHANGE TO FACEBOOK</button>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#tofacebook").click(function(){
+				//get attribute
+				var link=$("#my_a_tag").attr("href")
+				alert(link);
+
+				//change attribute
+				$("#my_a_tag").attr("href","http://facebook.com")
+			});
+		});
+	</script>
+</body>
+</html>

@@ -1,0 +1,100 @@
+*{margin: 0px;}
+.maindiv{
+	height: 650px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	position: fixed;
+	background-color: black;
+	/*background-image: url();*/
+}
+.maindiv img{
+	height: 450px;
+	width: 350px;
+	position: absolute;
+	bottom: 50px;
+	border:1px solid pink;
+	box-shadow: 0px 0px 10px 10px white;
+}
+.maindiv h6{
+	color: white;
+	position: absolute;
+	top: 270px;
+	left: 400px;
+	font-size: 30px;
+}
+.maindiv h1{
+	color: white;
+	position: absolute;top: 310px;
+	left: 400px;
+	font-size: 50px;
+}
+.maindiv span{
+	color: white;
+	position: absolute;
+	top: 380px;
+	left: 400px;
+	font-size: 30px;
+}
+.maindiv h4{
+	font-size: 50px;
+	color: orange;
+}	
+.maindiv p{
+	color: white;
+	position: absolute;
+	top: 480px;
+	left: 400px;
+}
+.list{
+	margin-left: 70px;
+}
+.list ul li{
+	height: 70px;
+	margin-top: 10px;
+	text-align: center;
+	width: 180px;
+	border:1px solid white;
+	color: white;
+	padding-top: 10px;
+	font-size: 40px;
+	display: inline-block;
+	margin-left: 20px;
+	box-shadow: 0px 0px 10px 10px aqua inset;
+}
+.ash{
+	height: 300px;
+	width: 200px;
+	/*background-color: red;*/
+	position: absolute;
+	right: 220px;
+	top: 220px;
+}
+.ash img{
+	height: 370px;
+	width: 300px;
+	position: absolute;
+	border:none;
+	box-shadow: none;
+}
+.button{
+	height: 40px;
+	width: 100px;
+	border-radius: 10px;
+	background-color: red;
+	color: white;
+	position: absolute;
+	bottom: 50px;
+	left: 500px;
+}
+
+.button1{
+	position: absolute;
+	bottom: 50px;
+	left: 700px;
+	height: 40px;
+	width: 100px;
+	border-radius: 10px;
+	background-color: blue;
+	color: white;
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h1 id="data1">welcome</h1>
+	<h1 id="data2">javascript</h1>
+	<button onclick="byid()">Change</button>
+	<script type="text/javascript">
+		var a=document;
+		console.log(a);
+		var b=document.head;
+		console.log(b);
+		var c=document.body;
+		console.log(c);
+		//by ID
+		//get
+		function byid() {
+			var d1=document.getElementById('data1').innerText;
+			var d2=document.getElementById('data2').innerText;
+			console.log(d1);
+			console.log(d2);
+			// set
+			document.getElementById('data1').innerText=d2;
+			document.getElementById('data2').innerText=d1;
+		}
+
+
+	</script>
+	<h1 class="data">welcome</h1>
+	<h1 class="data1">js</h1>
+	<h1 class="data">HTML</h1>
+	<h1 class="data">css</h1>
+	<script type="text/javascript">
+		//get
+		var a=document.getElementsByClassName('data');
+		var b=document.getElementsByClassName('data1');
+		console.log(a[2].innerHTML);
+		console.log(b);
+		console.log(b[0].innerHTML);k
+
+		//set
+		document.getElementsByClassName('data')[0].innerHTML="welcome all";
+		document.getElementsByClassName('data')[1].innerHTML="welcome Html";
+		document.getElementsByClassName('data')[2].innerHTML="welcome css";
+		document.getElementsByClassName('data1')[0].innerHTML="welcome js";
+	</script>
+	<ul >
+		<li class="data11">HTML</li>
+		<li class="data11">CSS</li>
+		<li class="data11">JS</li>
+		<li class="data11">JQUREY</li><li>HTML</li>
+		<li class="data11">CSS</li>
+		<li class="data11">JS</li>
+		<li class="data11">JQUREY</li>
+		<li class="data11">HTML</li>
+		<li class="data11">CSS</li>
+		<li class="data11">JS</li>
+		<li class="data11">JQUREY</li><li>HTML</li>
+		<li class="data11">CSS</li>
+		<li class="data11">JS</li>
+		<li class="data11">JQUREY</li>
+	</ul>
+	<script type="text/javascript">
+		var a=document.getElementsByClassName('data11');
+		for (var i=0;i<a.length;i++){
+			document.getElementsByClassName("data11")[i].innerHTML;
+		}
+
+	</script>
+	<p>welcome js</p>
+	<p>welcome css</p>
+	<h1>welcome html</h1>
+	<h1>welcome javascript</h1>
+	<h1>welcome jqurey</h1>
+	<script type="text/javascript">
+		//get
+		var a=document.getElementsByTagName('p');
+		console.log(a[0].innerHTML);
+		//set
+		document.getElementsByTagName('h1')[1].innerHTML="welcome js";
+	</script>
+	<form name="form">
+		<input type="text" name="name"><br><br>
+		<input type="text" name="email"value="a@gmail.com"><br><br>
+		<input type="text" name="email"><br><br>
+		<input type="text" name="phon"><br><br>
+	</form>
+	<script type="text/javascript">
+		// get
+		var a=document.getElementsByName('email');
+		console.log(a[0].value);
+		console.log(document.form.email[0].value);
+		//set
+		document.getElementsByName('email')[1].value="b@mail.com"
+	</script>
+	<p class="data"id="data2">welcome</p>
+	<p class="data"id="data2">js</p>
+	<p>css</p>
+	<script type="text/javascript">
+		var a=document.querySelector('p');
+		var a=document.querySelectorAll('p');
+		//var b=document.
+		console.log(a);
+		console.log(b);
+
+		var a=document.querySelector('#data1');
+		var b=document.querySelectorAll('#data2');
+
+
+		var a=document.querySelector('.data1');
+		var b=document.querySelectorAll('.data2') 
+	</script>
+</body>
+</html>

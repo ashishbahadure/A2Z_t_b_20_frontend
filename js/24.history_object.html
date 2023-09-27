@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<button onclick="back1()">back</button>
+	<button onclick="next1()" >Next</button>
+
+	<button onclick="back2()">back(2)</button>
+	<button onclick="next2()">next(2)</button>
+	<script type="text/javascript">
+		function back1() {
+			history.back();
+		}
+		function next1(){
+			history.forward();
+		}
+		function back2(){
+			history.go(-2);
+		}
+		function next2(){
+			history.go(2);
+		}
+	</script>
+</body>
+</html>

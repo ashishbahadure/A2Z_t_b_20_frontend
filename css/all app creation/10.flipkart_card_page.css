@@ -1,0 +1,137 @@
+*{margin:0px;padding: 0px;}
+.background{
+	height: 680px;
+	width: 100%;
+	background-color: white;
+	position: fixed;
+}
+.menubar{
+	height: 90px;
+	width: 100%;
+	background-color: blue;
+
+}
+.menubar img{
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	top:0px;
+	left: 100px;
+}
+.menubar span{
+	float: right;
+	font-size: 30px;
+	color: white;
+	position: absolute;
+	right: 0px;
+	top:30px;
+
+}
+.ic{
+	position: absolute;
+	right: 50px;
+	top:30px;
+	color: white;
+	font-size: 30px;
+}
+input{
+	height: 55px;
+	width: 540px;
+	float: right;
+	border:none;
+	font-size: 20px;
+	margin-top: 25px;
+	margin-right: 490px;
+	background-color: none;
+	background-color: white;
+	/*border-radius: 40px;*/
+}
+.bel{
+	height: 55px;
+
+	font-size: 40px;
+	color: black;
+	margin-left: 739px;
+	position: absolute;
+	background-color: white;
+	top:25px;
+	/*margin-top: -100px;*/
+
+}
+.bell3{
+	float: right;
+	margin-right: 20px;
+	font-size: 40px;
+	color: blue;
+	margin-top: 10px;
+	z-index: 7893;	
+}
+.offer{
+	height:170px;
+	width: 100%;
+	/*background-color: red;*/
+
+}
+.product{
+	height: 110px;
+	width: 110px;
+	/*background-color: green;*/
+	margin-left: 30px;
+	border-radius: 50px;
+	float: left;
+	margin-top: 10px;
+}
+.product img{
+	height: 100px;
+	width: 100px
+	border-radius:50px;
+}
+.name{
+
+	height: 40px;
+	width: 120px;
+	font-weight: bold;
+	font-size: 20px;
+	/*background-color: green;*/
+	margin-left: 30px;
+	/*border-radius: 50px;*/
+	float: left;
+	margin-top: 0px;
+
+}
+.add{
+	height: 260px;
+	width: 100%;
+	border:3px solid yellow ;
+	
+	background-color: aqua;
+
+}
+.add img{
+	height: 260px;
+	width: 1000px;
+}
+.last{
+	height: 90px;
+	width: 100%;
+	/*background-color: red;*/
+}
+.bank{
+	height: 50px;
+	width: 700px;
+	border:1px solid yellow;
+	border-radius: 40px;
+	/*margin-top: 10px;*/
+	position: absolute;
+	bottom: 80px;
+	left: 300px;
+
+}
+.bank img{
+	height: 40px;
+	width: 200px;
+	border-radius: 10px;
+	margin-top: 5px;
+	margin-left: 10px;
+	float: left;
+}

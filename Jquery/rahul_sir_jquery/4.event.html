@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+	<script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+</head>
+<style>
+    .box{
+        height: 400px;
+        width: 50%;
+        float: left;
+        background-color: red;
+    }
+</style>
+<body id="body">
+    <div class="box"></div>
+    <script>
+        $(document).ready(function(){
+            $('.box').click(function(){
+                $(this).css('background','blue');
+            });
+            $('.box').dblclick(function(){
+                $(this).css('background','skyblue')
+            });
+            $('.box').contextmenu(function(){
+                $(this).css('background','black')
+            });
+            $('.box').mouseover(function(){
+                $(this).css('background','yellow')
+            });
+            $('.box').mouseout(function(){
+                $(this).css('background','green')
+            });
+        });
+        // MouseEvent
+        $(document).ready(function(){
+            $('#body').keypress(function(){
+                $(this).css('background','blue');
+            });
+            $('#body').keydown(function(){
+                $(this).css('background','grey');
+            });
+            $('#body').keyup(function(){
+                $(this).css('background','pink');
+            });
+        })
+    </script>
+    <form id="da">
+        <input type="text" name="" id="name"><br>
+        <input type="text" name="" id="email"><br>
+        <input type="text" name="" id="phone"><br>
+        <select id="cha">
+            <option value="">choose</option>
+            <option value="">area</option>
+            <option value="">area</option>
+            <option value="">area</option>
+            <option value="">area</option>
+            <option value="">area</option>
+        </select>
+    </form>
+    <button>submit</button>
+    <script>
+        $(document).ready(function(){
+            $('#name,#email,#phone').focus(function(){
+                $(this).css('background','yellow');
+            });
+            $('#name,#email,#phone').blur(function(){
+                $(this).css('background','green');
+            });
+            $('#name,#email,#phone').select(function(){
+                $(this).css('background','blue');
+            });
+            $('#cha').change(function(){
+                $(this).css('background','orange');
+            });
+            $('#da').submit(function(){
+                alert('submit')
+            });
+            
+        })
+    </script>
+</body>
+</html>

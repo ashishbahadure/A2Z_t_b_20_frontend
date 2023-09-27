@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+	<style type="text/css">
+		#box1_div
+		{
+			background-color: red;
+			height: 100px;
+			width: 100px;
+			float: left;
+		}
+	</style>
+</head>
+<body>
+<button id="box1">box1</button>
+<button id="box2">box2</button>
+<br>
+<div id="box1_div"></div>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#box1").click(function(){
+
+		$("#box1_div").fadeIn();
+		$("#box1_div").fadeOut();
+		$("#box1_div").fadeToggle();	
+		});
+	});
+	$(document).ready(function(){
+		$("#box2").click(function(){
+
+		$("#box1_div").fadeIn();
+		$("#box1_div").fadeOut();
+		$("#box1_div").fadeToggle();	
+		});
+	});
+	
+</script>
+</body>
+</html>

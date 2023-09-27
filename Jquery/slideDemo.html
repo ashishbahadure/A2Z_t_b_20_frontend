@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+	<style type="text/css">
+		#box1_div
+		{
+			background-color: red;
+			height: 100px;
+			width: 100px;
+			float: left;
+		}
+	</style>
+</head>
+<body>
+	<button id="boxbtn">slide</button>
+	<br>
+	<div id="box1_div"></div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#boxbtn").click(function(){
+				// $("#box1_div").slideToggle('slow');
+				$("#box1_div").slideUp('slow');
+				$("#box1_div").slideDown('slow');
+			});
+		});
+	</script>
+</body>
+</html>

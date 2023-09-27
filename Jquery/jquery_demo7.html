@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+
+	<style type="text/css">
+		#print_output{
+			border:2px solid black;
+			height: 650px;
+			width: 100%;
+			position: relative;
+			overflow: hidden;
+			background-color: black;
+		}
+		.inner_div{
+			height:100px;
+			width: 100px;
+			border-radius: 50%;
+			position: absolute;
+		}
+	</style>
+	<div id="print_output"></div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			var color=['blue','red','black','orange','yellow','green','purple','pink','violet','grey'];
+			setInterval(function()
+			{
+				var random_color_index=parseInt(Math.random()*10);
+				var left=parseInt(Math.random()*500)-50;
+				var top=500;
+				var inner=`<div class="inner_div" style="left:${left}px;top:${left}px;top:${top}px;background-color:${color[random_color_index]};">`;
+				$("#print_output").append(inner);
+				$(".inner_div").animate({'top':"-220px"},2000);
+			},100);
+		});
+	</script>
+</head>
+<body>
+
+</body>
+</html>

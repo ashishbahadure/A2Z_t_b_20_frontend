@@ -1,0 +1,116 @@
+body{
+
+	background-image: url(https://tse2.mm.bing.net/th?id=OIP.PpIQnyQwH8F2hOIOekc4cgHaFa&pid=Api&P=0);
+	background-repeat: no-repeat;
+	/*background-position: 100% 100%;*/
+	background-attachment: fixed;
+	background-size: 100% 
+}
+
+.moblie{
+	height: 600px;
+	/*width: 33%;*/
+	background-image: url(https://tse2.mm.bing.net/th?id=OIP.F_lrIeDrBUKqGGxqMqSGyAHaNK&pid=Api&P=0);
+
+	border-radius: 10px;
+	box-shadow: 0px 0px 0px 5px black inset;
+
+}
+
+
+.icons{
+	font-size: 36px;
+	font-weight: 50px;
+	color: white;
+	height: 0px;
+	width: 0px;
+	float: right;
+	margin-right: 105px;
+	margin-left: 210px;
+}
+.bold{
+	font-weight: 40px;
+float: right;
+font-size: 27px;
+color: white;
+margin-right: 10px;
+}
+.time{
+	font-size: 46px;
+	color:rgb(237, 7, 190);
+	text-align: center;	
+	font-weight: 20px;
+	text-shadow: 5px 5px 5px black;
+}
+h1{
+	text-align: center;
+	color: white;
+	text-shadow: 0px 0px 10px black;
+}
+
+fieldset{
+	height: 530px;
+	width: 400px;
+	border-radius: 10px;
+	border-left-color: red;
+	border-right-color:red; 
+    background:hsla(260,100%,40%,0.3);
+
+}
+.input{
+	height: 30px;
+	width: 400px;
+	text-align: center;
+	/*margin-left: 40px;*/
+	border-radius: 10px;
+	border-left:7px solid red;
+	border-right: 7px solid red;
+}
+textarea{
+	height: 30px;
+	width: 400px;
+	text-align: center;
+	/*margin-left: 40px;*/
+	border-radius: 10px;
+	border-bottom: 3px solid red;
+}
+.div{
+	height: 50px;
+	width:50px;
+	background-image: linear-gradient(to left,red,orange);
+	margin-top: 5px;
+	float: left;
+	margin:15px;
+	border-radius: 10px;
+	box-shadow: 5px 5px 10px black;
+	margin-left: 30px
+}
+.div i{
+	height: 50px;
+	width: 50px;
+	color: white;
+	text-align: center;
+	font-size: 40px;
+	padding-top: 1px;
+}
+.div2{
+	height: 50px;
+	width:50px;
+	background-image: linear-gradient(to left,red,orange);
+	margin-top: 50px;
+	float: left;
+	margin: 15px;
+	border-radius: 10px;
+	box-shadow: 5px 5px 10px black;
+	margin-left: 30px
+
+}
+.div2 i{
+	height: 50px;
+	width: 50px;
+	color: white;
+	text-align: center;
+	font-size: 40px;
+	padding-top: 1px;
+
+}

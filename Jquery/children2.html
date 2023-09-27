@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+	<script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+
+</head>
+<body>
+    <div id="mydiv" style="background-color: black;padding: 5px;">
+    <h3 style="background-color: blue;padding: 5px;">
+    <span style="background-color:green" class="myspan">Hello</span>
+    </h3>
+    <span style="background-color: green;">Heello</span>
+    </div>
+    <button id="mybtn">CLICK</button>
+    <script>
+        $(document).ready(function(){
+            $("#mybtn").click(function(){
+                // $("#mydiv").children().css("background-color",'red');
+                // $("#mydiv").children('span').css("background-color",'red');
+                // $("#mydiv").find('span').css("background-color",'red');
+
+                $("#mydiv").find('.myspan').css("background-color",'red');
+
+            })
+        })
+    </script>
+</body>
+</html>

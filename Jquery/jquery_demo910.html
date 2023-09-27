@@ -1,0 +1,39 @@
+<script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+
+
+<form id="myform">
+	<input type="text" class="formfield" name="username"id="username"placeholder="username"><br><br>
+	<input type="text"class="formfield" name="usermobile" id="usermobile"placeholder='usermobile'><br><br>
+	<button disabled id="my_sumit_btn">SUMBIT</button>
+</form>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$(".formfield").keyup(function(){
+			var error=0;
+			var uname=$("#username").val();
+			if (uname.length==0) {
+				$("#username").css("border","5px solid red");
+				error++;
+			}
+			var umobile=$("#usermobile").val();
+			if (umobile.length!=10) {
+				$("#usermobile").css({
+					"border":"5px solid red",
+					"color":"red",
+					"box-shadow":"0px 0px 10px 0px black"
+				});
+				error++;
+			}
+			if (error==0) {
+				console.log("valid details");
+				$("#my_sumit_btn").removeAttr('disabled');
+
+			}
+			else
+			{
+				$("#my_sumit_btn").attr('disabled','');
+				console.warn("invalid deatails")
+			}
+		});
+	});
+</script>

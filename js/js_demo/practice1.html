@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #mydiv{
+            border: 1px solid black;
+            height: 30px;
+            width: 150px;
+            margin-top: 20px;
+            ;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" id="inp1" placeholder="enter the name">
+    <input type="text" id="inp2" placeholder="enter the email">
+    <input type="date" id="inp3" >
+    <button onclick="change()">click</button>
+    <!-- <div id="mydiv"></div> -->
+    <table border="1"id="mytbl">
+        <tr>
+            <td>section</td>
+            <td>username</td>
+            <td>useremail</td>
+            <td>date</td>
+        </tr>
+    </table>
+    <script>
+        function change(){
+           var  inp = document.getElementById("inp1").value;
+           var  inp1 = document.getElementById("inp2").value;
+           var  inp2 = document.getElementById("inp3").value;
+            // var div=document.getElementById('mydiv');
+            var d1=document.getElementById('mytbl');
+
+            var out=`<tr>
+                    <td><button onclick="remove(this)">remove</button></td>
+                    <td>`+inp+`</td>
+                    <td>`+inp1+`</td>
+                    <td>`+inp2+`</td>
+                </tr>`
+            // div.innerHTML=div.innerHTML+inp+inp1+inp2+"<br>";
+            d1.innerHTML=d1.innerHTML+out;
+        }
+        function remove(elmt){
+ 			elmt.closest('tr').remove();
+            
+        }
+    </script>
+</body>
+</html>

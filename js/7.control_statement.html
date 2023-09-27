@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body id="body">
+<script type="text/javascript">
+	// var ab="javascript";
+	// if (ab=="javascript") {
+	// 	document.write("welcome"+ab);
+	// 	6000/10
+	// }
+	var shop=6000;
+	var dis=0;
+	if (shop>=5000 && shop<=10000) {
+		dis=10;
+	}
+
+	var discount=shop/10;
+	var total=shop-discount;
+	document.write("<br>total Bill="+shop);
+	document.write("<br> total dis("+dis+"%)="+discount);
+	document.write("<br>net total="+total);
+	document.write("<br>");
+
+	var gen="male";
+	if(gen=="female"){
+		document.write("she")
+	}
+	if(gen=="male"){
+		document.write("he")
+	}
+
+		document.write("<br>")
+		document.write("<br>")
+		document.write("<br>")
+
+	var age=15;
+	if (age>=18) {
+		document.write("you are elgible");
+	}
+
+	if (age<18) {
+		document.write("you are not elgible")
+	}
+		document.write("<br>")
+		document.write("<br>")
+		document.write("<br>")
+
+	var number=11;
+	if (number%2==0) {
+		document.write("this is even");
+	}
+		if (number%2!=0) {
+			document.write("this is odd");
+		}
+
+		document.write("<br>")
+		document.write("<br>")
+		document.write("<br>")
+		document.write("<br>")
+
+		var sub1=40;
+		var sub2=37;
+		var sub3=45;
+		var sub4=55;
+		var sub5=65;
+		var sub6=76;
+		if (sub1>=35 && sub2>=35 && sub3>=35 && sub4>=35 && sub5>=35 && sub6>=35 ) {
+			document.write("pass");
+
+		}
+		else{
+			document.write("fail");
+		}
+		document.write("<br>")
+		document.write("<br>")
+		document.write("<br>")
+		document.write("<br>")
+
+		// even and odd 
+		var ab=13;
+		if (ab%2==0) {
+			document.write("even")
+		}
+		else{
+			document.write("odd")
+		}
+		document.write("<br>")
+		document.write("<br>")
+		document.write("<br>")
+
+		// votting elgible program
+		var age=140;
+		if (age>=18) {
+			document.write("you are elgible")
+		}
+		else{
+			document.write("you not elgible")
+		}
+		document.write("<br>")
+		document.write("<br>")
+		document.write("<br>")
+
+		// male and female
+		var gen="female";
+		if (gen=="male") {
+			document.write("he");
+		}
+		else{
+			document.write("she")
+		}
+		document.write("<br>")
+		document.write("<br>")
+		document.write("<br>")
+		document.write("<br>")
+
+		var shop=6000;
+		dis=10;
+		if (shop>=5000) {
+			diss=shop/10;
+			document.write("dis="+dis+"%==");
+			document.write("net="+diss)
+		}
+		else{
+			document.write("not discount="+shop)
+		}
+		document.write("<br>")
+		document.write("<br>")
+		document.write("<br>")
+		var a=10;
+		var b=200;
+		var c=30;
+		if (a>=b && a>=c) {
+			document.write("a is greater");
+		}
+		else if (b>=a && b>=c) {
+			document.write("b is greater");
+		}
+		else{
+			document.write("c is greater");
+		}
+		document.write("<br>")
+		document.write("<br>")
+		document.write("<br>")
+		document.write("<br>")
+
+		var shop=20000;
+		if (shop<=5000) {
+			dis=0;
+			var disamt=shop/0;
+			document.write("<br>total Bill="+shop);
+			document.write("<br>total dis("+dis+"%)="+disamt);
+			document.write("<br>net total="+total);
+
+		}
+		else if(shop>=5000 && shop<=10000){
+			dis=20;
+			var disamt=shop/0;
+			document.write("<br>total Bill="+shop);
+			document.write("<br>total dis("+dis+"%)="+disamt);
+			document.write("<br>net total="+total);
+			
+		}
+		else if (shop>=10000 && shop<=20000) {
+			dis=25;
+			var disamt=shop/0;
+			document.write("<br>total Bill="+shop);
+			document.write("<br>total dis("+dis+"%)="+disamt);
+			document.write("<br>net total="+total);
+			
+		}
+		else if (shop>=10000 && shop<=15000) {
+			dis=30;
+			var disamt=shop/0;
+			document.write("<br>total Bill="+shop);
+			document.write("<br>total dis("+dis+"%)="+disamt);
+			document.write("<br>net total="+total);
+			
+		}
+		
+			document.write("<br>")
+			document.write("<br>")
+			document.write("<br>")
+
+		// switch_case_statement
+		var a=10;
+		var b=10;
+		var op="/";
+		switch(op){
+			case '+':
+			var c=a+b;
+			document.write(c);
+			break;
+			case '-':
+			var c=a-b;
+			document.write(c);
+			break;
+			case '*':
+			var c=a*b;
+			document.write(c);
+			break;
+			case '/':
+			var c=a/b;
+			document.write(c);
+			break;
+			default:
+			document.write("error")
+		}
+
+		
+				var c="v";
+				switch(c){
+					case 'r':
+			document.getElementById('body').style="background:red";
+			break;
+			case 'o':
+			document.getElementById('body').style="background:orange";
+			break;
+
+			case 'y':
+			document.getElementById('body').style="background:yellow";
+			break;
+
+			case 'g':
+			document.getElementById('body').style="background:green";
+			break;
+
+			case 'b':
+			document.getElementById('body').style="background:blue";
+			break;
+
+			case 'i':
+			document.getElementById('body').style="background:indigo";
+			break;
+
+			case 'v':
+			document.getElementById('body').style="background:violet";
+			break;
+			default:
+			document.write("unknown color")
+			}
+		document.write("<br>")
+		document.write("<br>")
+		document.write("<br>")
+
+
+				var day='70';
+				switch(day){
+					case '1':
+					document.write("sunday");
+					break;
+					case '2':
+					document.write("monday");
+					break;
+					case '3':
+					document.write("tuesday");
+					break;
+
+					case '4':
+					document.write("wednesday");
+					break;
+					case '5':
+					document.write("thusday");
+					break;
+					case '6':
+					document.write("friday");
+					break;
+					case '7':
+					document.write("saturday");
+					break;
+					default:
+					document.write("not day");
+					break;
+				}
+		document.write("<br>")
+		document.write("<br>")
+		document.write("<br>")
+
+				// month calculate in switch case
+				var month="12";
+				switch(month){
+					case '1':
+					document.write("january");
+					break;
+					case '2':
+					document.write("fabruary");
+					break;
+					case '3':
+					document.write("march");
+					break;
+					case '4':
+					document.write("april");
+					break;
+					case '5':
+					document.write("may");
+					break;
+					case '6':
+					document.write("june");
+					break;
+					case '7':
+					document.write("july");
+					break;
+					case '8':
+					document.write("august");
+					break;
+					case '9':
+					document.write("suptember");
+					break;
+					case '10':
+					document.write("october");
+					break;
+					case '11':
+					document.write("november");
+					break;
+					case '12':
+					document.write("december");
+					break;
+				}
+
+</script>
+</body>
+</html>
